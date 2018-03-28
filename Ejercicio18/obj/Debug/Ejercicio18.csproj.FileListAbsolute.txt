@@ -3,3 +3,9 @@ C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercici
 C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio18\bin\Debug\Ejercicio18.pdb
 C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio18\obj\Debug\Ejercicio18.exe
 C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio18\obj\Debug\Ejercicio18.pdb
+C:\Users\jgraziano\Desktop\Solucion.General\Ejercicio18\bin\Debug\Ejercicio18.exe.config
+C:\Users\jgraziano\Desktop\Solucion.General\Ejercicio18\obj\Debug\Ejercicio18.exe
+C:\Users\jgraziano\Desktop\Solucion.General\Ejercicio18\obj\Debug\Ejercicio18.pdb
+C:\Users\jgraziano\Desktop\Solucion.General\Ejercicio18\bin\Debug\Ejercicio18.exe
+C:\Users\jgraziano\Desktop\Solucion.General\Ejercicio18\bin\Debug\Ejercicio18.pdb
+C:\Users\jgraziano\Desktop\Solucion.General\Ejercicio18\obj\Debug\Ejercicio18.csprojResolveAssemblyReference.cache
