@@ -1,0 +1,6 @@
+C:\Users\alumno\Desktop\labII2018\Graziano.Julian.Ejercicios\Ejercicio17\bin\Debug\Ejercicio17.exe.config
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio17\bin\Debug\Ejercicio17.exe.config
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio17\bin\Debug\Ejercicio17.exe
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio17\bin\Debug\Ejercicio17.pdb
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio17\obj\Debug\Ejercicio17.exe
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio17\obj\Debug\Ejercicio17.pdb

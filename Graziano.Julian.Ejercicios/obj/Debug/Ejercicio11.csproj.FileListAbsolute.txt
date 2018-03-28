@@ -1,0 +1,12 @@
+C:\Users\alumno\Desktop\labII2018\Graziano.Julian.Ejercicios\Graziano.Julian.Ejercicios\bin\Debug\Graziano.Julian.Ejercicios.exe.config
+C:\Users\alumno\Desktop\labII2018\Graziano.Julian.Ejercicios\Graziano.Julian.Ejercicios\bin\Debug\Graziano.Julian.Ejercicios.exe
+C:\Users\alumno\Desktop\labII2018\Graziano.Julian.Ejercicios\Graziano.Julian.Ejercicios\bin\Debug\Graziano.Julian.Ejercicios.pdb
+C:\Users\alumno\Desktop\labII2018\Graziano.Julian.Ejercicios\Graziano.Julian.Ejercicios\obj\Debug\Ejercicio11.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\labII2018\Graziano.Julian.Ejercicios\Graziano.Julian.Ejercicios\obj\Debug\Graziano.Julian.Ejercicios.exe
+C:\Users\alumno\Desktop\labII2018\Graziano.Julian.Ejercicios\Graziano.Julian.Ejercicios\obj\Debug\Graziano.Julian.Ejercicios.pdb
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Graziano.Julian.Ejercicios\bin\Debug\Graziano.Julian.Ejercicios.exe.config
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Graziano.Julian.Ejercicios\bin\Debug\Graziano.Julian.Ejercicios.exe
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Graziano.Julian.Ejercicios\bin\Debug\Graziano.Julian.Ejercicios.pdb
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Graziano.Julian.Ejercicios\obj\Debug\Ejercicio11.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Graziano.Julian.Ejercicios\obj\Debug\Graziano.Julian.Ejercicios.exe
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Graziano.Julian.Ejercicios\obj\Debug\Graziano.Julian.Ejercicios.pdb
