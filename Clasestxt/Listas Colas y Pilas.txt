@@ -1,0 +1,5 @@
+			List		Queue		Stack
+Agregar		ADD			ENQUEUE		PUSH
+Quitar		REMOVE		DEQUEUE		POP
+Ordenar		SI			NO			NO
+Serializar	SI			NO			NO

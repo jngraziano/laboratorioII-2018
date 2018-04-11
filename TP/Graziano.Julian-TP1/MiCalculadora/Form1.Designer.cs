@@ -1,6 +1,6 @@
 ﻿namespace MiCalculadora
 {
-    partial class Form1
+    partial class LaCalculadora
     {
         /// <summary>
         /// Required designer variable.
@@ -28,100 +28,121 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnOperar = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.text_Numero1 = new System.Windows.Forms.TextBox();
+            this.cmbOperador = new System.Windows.Forms.ComboBox();
+            this.text_Numero2 = new System.Windows.Forms.TextBox();
+            this.lblResultado = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnOperar
             // 
-            this.button1.Location = new System.Drawing.Point(59, 132);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 39);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Operar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnOperar.Location = new System.Drawing.Point(59, 152);
+            this.btnOperar.Name = "btnOperar";
+            this.btnOperar.Size = new System.Drawing.Size(105, 45);
+            this.btnOperar.TabIndex = 0;
+            this.btnOperar.Text = "Operar";
+            this.btnOperar.UseVisualStyleBackColor = true;
+            this.btnOperar.Click += new System.EventHandler(this.btnOperar_click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(59, 187);
+            this.button4.Location = new System.Drawing.Point(59, 216);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(184, 40);
+            this.button4.Size = new System.Drawing.Size(184, 46);
             this.button4.TabIndex = 3;
             this.button4.Text = "Convertir a Binario";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.btnConvertirABinario_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(287, 187);
+            this.button5.Location = new System.Drawing.Point(287, 216);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(184, 40);
+            this.button5.Size = new System.Drawing.Size(184, 46);
             this.button5.TabIndex = 4;
             this.button5.Text = "Convertir a Decimal";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.btnConvertirADecimal_click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(211, 132);
+            this.button2.Location = new System.Drawing.Point(211, 152);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(105, 39);
+            this.button2.Size = new System.Drawing.Size(105, 45);
             this.button2.TabIndex = 5;
             this.button2.Text = "Limpiar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(366, 132);
+            this.button3.Location = new System.Drawing.Point(366, 152);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(105, 39);
+            this.button3.Size = new System.Drawing.Size(105, 45);
             this.button3.TabIndex = 6;
             this.button3.Text = "Cerrar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.btnCerrar_click);
             // 
-            // textBox1
+            // text_Numero1
             // 
-            this.textBox1.Location = new System.Drawing.Point(59, 37);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(115, 20);
-            this.textBox1.TabIndex = 7;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.text_Numero1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.text_Numero1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_Numero1.Location = new System.Drawing.Point(59, 43);
+            this.text_Numero1.Name = "text_Numero1";
+            this.text_Numero1.Size = new System.Drawing.Size(97, 20);
+            this.text_Numero1.TabIndex = 7;
             // 
-            // textBox2
+            // cmbOperador
             // 
-            this.textBox2.Location = new System.Drawing.Point(356, 37);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(115, 20);
-            this.textBox2.TabIndex = 8;
+            this.cmbOperador.FormattingEnabled = true;
+            this.cmbOperador.Location = new System.Drawing.Point(211, 42);
+            this.cmbOperador.Name = "cmbOperador";
+            this.cmbOperador.Size = new System.Drawing.Size(105, 23);
+            this.cmbOperador.TabIndex = 9;
             // 
-            // comboBox1
+            // text_Numero2
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(211, 36);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 9;
+            this.text_Numero2.Location = new System.Drawing.Point(366, 42);
+            this.text_Numero2.Name = "text_Numero2";
+            this.text_Numero2.Size = new System.Drawing.Size(105, 20);
+            this.text_Numero2.TabIndex = 10;
             // 
-            // Form1
+            // lblResultado
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.lblResultado.AutoSize = true;
+            this.lblResultado.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Location = new System.Drawing.Point(453, 23);
+            this.lblResultado.Name = "lblResultado";
+            this.lblResultado.Size = new System.Drawing.Size(0, 16);
+            this.lblResultado.TabIndex = 11;
+            // 
+            // LaCalculadora
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(544, 269);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(544, 310);
+            this.Controls.Add(this.lblResultado);
+            this.Controls.Add(this.text_Numero2);
+            this.Controls.Add(this.cmbOperador);
+            this.Controls.Add(this.text_Numero1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Controls.Add(this.btnOperar);
+            this.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "LaCalculadora";
+            this.Opacity = 0.85D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora de Julian Graziano 2°D";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -131,14 +152,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnOperar;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox text_Numero1;
+        private System.Windows.Forms.ComboBox cmbOperador;
+        private System.Windows.Forms.TextBox text_Numero2;
+        private System.Windows.Forms.Label lblResultado;
     }
 }
 

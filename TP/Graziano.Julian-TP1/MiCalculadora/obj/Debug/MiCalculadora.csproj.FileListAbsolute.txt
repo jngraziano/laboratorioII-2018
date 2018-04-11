@@ -8,4 +8,4 @@ C:\Users\alumno\Desktop\labII\TP\Graziano.Julian-TP1\MiCalculadora\obj\Debug\MiC
 C:\Users\alumno\Desktop\labII\TP\Graziano.Julian-TP1\MiCalculadora\obj\Debug\MiCalculadora.pdb
 C:\Users\alumno\Desktop\labII\TP\Graziano.Julian-TP1\MiCalculadora\bin\Debug\Graziano.Julian-TP1.pdb
 C:\Users\alumno\Desktop\labII\TP\Graziano.Julian-TP1\MiCalculadora\bin\Debug\Graziano.Julian-TP1.dll
-C:\Users\alumno\Desktop\labII\TP\Graziano.Julian-TP1\MiCalculadora\obj\Debug\MiCalculadora.Form1.resources
+C:\Users\alumno\Desktop\labII\TP\Graziano.Julian-TP1\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources

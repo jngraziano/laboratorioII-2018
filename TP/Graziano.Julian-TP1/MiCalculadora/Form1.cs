@@ -11,7 +11,7 @@ using Entidades;
 
 namespace MiCalculadora
 {
-    public partial class Form1 : Form
+    public partial class LaCalculadora : Form
     {
         /*
              *                  WINDOWS FORM 
@@ -34,18 +34,16 @@ namespace MiCalculadora
              *
              * 
              */
-        public Form1()
+
+        public LaCalculadora()
         {
-          InitializeComponent();
+            InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+ 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
 
         }
 
@@ -53,8 +51,61 @@ namespace MiCalculadora
         {
 
         }
+      
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+
+        private void btnOperar_click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+
+
+        private void Limpiar()
+        {
+           //   El método Limpiar será llamado por el evento click del botón btnLimpiar y borrará
+           //    los datos de los TextBox, ComboBox y Label de la pantalla.
+            this.text_Numero1.Text = "";
+            this.text_Numero2.Text = "";
+            this.lblResultado = new Label();
+            this.cmbOperador = new ComboBox();
+
+
+        }
+        
+        private static double Operar(string numero1, string numero2, string operador)
+        {
+            //El método Operar será estático recibirá los dos números y el operador para luego
+            //llamar al método Operar de Calculadora y retornar el resultado al método de evento
+            //del botón btnOperar que reflejará el resultado en el Label txtResultado.
+            Entidades.Calculadora calcu = new Calculadora();
+            //trabajar con esto
+            Entidades.Numero num1 = new Entidades.Numero(numero1);
+            Entidades.Numero num2 = new Entidades.Numero(numero2);
+            
+            return Entidades.Calculadora.Operar(num1,num2,operador);
+
+
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            this.Limpiar();
+        }
+
+        private void btnCerrar_click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnConvertirABinario_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnConvertirADecimal_click(object sender, EventArgs e)
         {
 
         }

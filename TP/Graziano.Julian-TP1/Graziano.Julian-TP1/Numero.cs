@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Numero
+    public class Numero
     {
         #region MAIN echo con Consola
         //Console.Title = "Fecha de entrega viernes 20 abril.";
