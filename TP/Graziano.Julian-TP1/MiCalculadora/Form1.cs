@@ -82,10 +82,14 @@ namespace MiCalculadora
             //del botón btnOperar que reflejará el resultado en el Label txtResultado.
             Entidades.Calculadora calcu = new Calculadora();
             //trabajar con esto
+            
             Entidades.Numero num1 = new Entidades.Numero(numero1);
             Entidades.Numero num2 = new Entidades.Numero(numero2);
-            
-            return Entidades.Calculadora.Operar(num1,num2,operador);
+
+
+
+
+            return calcu.Operar(num1, num2, operador);
 
 
         }

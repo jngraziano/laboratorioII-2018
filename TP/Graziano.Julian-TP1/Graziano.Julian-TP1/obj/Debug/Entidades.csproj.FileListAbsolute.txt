@@ -9,3 +9,8 @@ C:\Users\alumno\Desktop\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\bin\Deb
 C:\Users\alumno\Desktop\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\bin\Debug\Graziano.Julian-TP1.dll.config
 C:\Users\alumno\Desktop\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\bin\Debug\Graziano.Julian-TP1.dll
 C:\Users\alumno\Desktop\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\obj\Debug\Graziano.Julian-TP1.dll
+C:\Users\tano\Desktop\Tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\bin\Debug\Graziano.Julian-TP1.dll.config
+C:\Users\tano\Desktop\Tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\bin\Debug\Graziano.Julian-TP1.dll
+C:\Users\tano\Desktop\Tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\bin\Debug\Graziano.Julian-TP1.pdb
+C:\Users\tano\Desktop\Tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\obj\Debug\Graziano.Julian-TP1.dll
+C:\Users\tano\Desktop\Tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\obj\Debug\Graziano.Julian-TP1.pdb

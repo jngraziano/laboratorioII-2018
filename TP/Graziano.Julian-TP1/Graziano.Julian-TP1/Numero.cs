@@ -39,8 +39,7 @@ namespace Entidades
 
         //Console.ReadKey();
         #endregion
-
-
+        
         #region Variables, Getter y Constructor
         private double numero;
 
