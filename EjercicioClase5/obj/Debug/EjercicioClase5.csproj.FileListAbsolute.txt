@@ -7,3 +7,6 @@ C:\Users\alumno\Desktop\labII\EjercicioClase5\obj\Debug\EjercicioClase5.pdb
 C:\Users\jgraziano\Desktop\tano10\labII-2018\EjercicioClase5\bin\Debug\EjercicioClase5.exe.config
 C:\Users\jgraziano\Desktop\tano10\labII-2018\EjercicioClase5\obj\Debug\EjercicioClase5.exe
 C:\Users\jgraziano\Desktop\tano10\labII-2018\EjercicioClase5\obj\Debug\EjercicioClase5.pdb
+C:\Users\jgraziano\Desktop\tano10\labII\EjercicioClase5\bin\Debug\EjercicioClase5.exe.config
+C:\Users\jgraziano\Desktop\tano10\labII\EjercicioClase5\obj\Debug\EjercicioClase5.exe
+C:\Users\jgraziano\Desktop\tano10\labII\EjercicioClase5\obj\Debug\EjercicioClase5.pdb
