@@ -14,3 +14,9 @@ C:\Users\tano\Desktop\Tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\bi
 C:\Users\tano\Desktop\Tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\bin\Debug\Graziano.Julian-TP1.pdb
 C:\Users\tano\Desktop\Tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\obj\Debug\Graziano.Julian-TP1.dll
 C:\Users\tano\Desktop\Tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\obj\Debug\Graziano.Julian-TP1.pdb
+C:\Users\jgraziano\Desktop\tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\bin\Debug\Graziano.Julian-TP1.dll.config
+C:\Users\jgraziano\Desktop\tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\bin\Debug\Graziano.Julian-TP1.dll
+C:\Users\jgraziano\Desktop\tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\bin\Debug\Graziano.Julian-TP1.pdb
+C:\Users\jgraziano\Desktop\tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\jgraziano\Desktop\tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\obj\Debug\Graziano.Julian-TP1.dll
+C:\Users\jgraziano\Desktop\tano10\labII\TP\Graziano.Julian-TP1\Graziano.Julian-TP1\obj\Debug\Graziano.Julian-TP1.pdb

@@ -13,27 +13,7 @@ namespace MiCalculadora
 {
     public partial class LaCalculadora : Form
     {
-        /*
-             *                  WINDOWS FORM 
-             * IMPORTANTE: siempre trabajar sobre el Form1.cs o dandole doble click al Design. No Codear en Program                 
-             * Ejemplo instanciar formulario: Form miForm = new Form();
-             * 1 - Usar con GUI dentro del Design, la pestaña Toolbox, dentro de esta podes arrastrar al WF lo que quieras.
-             * 2 - Al darle doble click a lo que sea, te lleva dentro del Form1 al metodo que hace (ejemplo boton).
-             * 
-             * Uso los metodos del objeto. Ejemplos:
-             *  
-             *  miForm.Text = "MiCalculadora - Julian Graziano"; //Le pone titulo al form.
-             *  miForm.Opacity = 0.89; //capitan obvio.
-             *  miForm.Font = new System.Drawing.Font("Arial", 10); //Seteo el tipò de letra.
-             *  miForm.ShowInTaskbar = false; no se que hace.
-             *  
-             *  
-             *  Show(): Visualiza el formulario. Puede especificarse su formulario Owner (dueño o propietario).
-             *  Close(): Cierra el formulario.
-             *  Hide(): Oculta el formulario del usuario.
-             *
-             * 
-             */
+        #region Iniciadores Windows Form
 
         public LaCalculadora()
         {
@@ -46,29 +26,17 @@ namespace MiCalculadora
             
 
         }
+        #endregion 
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-
-        }
-      
-
-
+        #region Eventos de los Botones
         private void btnOperar_click(object sender, EventArgs e)
         {
            
             Calculadora calcu1 = new Calculadora();
             string valor="+";
-            //calcu1.ValidarOperador();
-
-
-          
+           
             if (object.ReferenceEquals(cmbOperador.SelectedItem, null))
             {
-                //const string mensaje = "Operador Incorrecto.";
-                //const string titulo = "Error";
-                //MessageBox.Show(mensaje, titulo, MessageBoxButtons.OK);
-
                 string resultado = Operar(text_Numero1.Text, text_Numero2.Text, valor).ToString();
                 lblResultado.Text = resultado;
                
@@ -80,48 +48,6 @@ namespace MiCalculadora
                 lblResultado.Text = resultado;
                 
             }
-          
-            //VER TEMA DE VALIDAR OPERADOR USANDO EL METODO QUE ESTA DENTRO DE CALCULADORA
-            //HICE PUBLIC EL METODO ESTATICO VALIDAROPERADOR
-            //VER TEMA VALIDAR NUMERO USANDO EL METODO DENTRO DE NUMERO          
-            
-
-        }
-
-
-
-
-
-        private void Limpiar()
-        {
-           //   El método Limpiar será llamado por el evento click del botón btnLimpiar y borrará
-           //    los datos de los TextBox, ComboBox y Label de la pantalla.
-            this.text_Numero1.Text = "";
-            this.text_Numero2.Text = "";
-            this.lblResultado = new Label();
-            this.cmbOperador = new ComboBox();
-
-
-        }
-        
-        private static double Operar(string numero1, string numero2, string operador)
-        {
-            //El método Operar será estático recibirá los dos números y el operador para luego
-            //llamar al método Operar de Calculadora y retornar el resultado al método de evento
-            //del botón btnOperar que reflejará el resultado en el Label txtResultado.
-            Entidades.Calculadora calcu = new Calculadora();
-            //trabajar con esto
-           
-            Numero numaux = new Numero();
-            
-            Entidades.Numero num1 = new Entidades.Numero(numaux.ValidarNumero(numero1));
-            Entidades.Numero num2 = new Entidades.Numero(numaux.ValidarNumero(numero2));
-
-          
-
-
-            return calcu.Operar(num1, num2, operador);
-
 
         }
 
@@ -147,22 +73,85 @@ namespace MiCalculadora
 
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
+            Numero numresult = new Numero();
+            if (this.lblResultado.Text == "")
+            {
+                const string mensaje = "Se necesita realizar una operación.";
+                const string titulo = "ERROR";
+                var result = MessageBox.Show(mensaje, titulo, MessageBoxButtons.OK);
+
+            }
+            else
+            {
+                this.lblResultado.Text = numresult.DecimalBinario(this.lblResultado.Text);
+            }
+
 
         }
 
         private void btnConvertirADecimal_click(object sender, EventArgs e)
         {
+            Numero numresult = new Numero();
+
+            if (this.lblResultado.Text == "")
+            {
+                const string mensaje = "Se necesita realizar una operación.";
+                const string titulo = "ERROR";
+                var result = MessageBox.Show(mensaje, titulo, MessageBoxButtons.OK);
+
+            }
+            else
+            {
+                this.lblResultado.Text = numresult.BinarioDecimal(this.lblResultado.Text);
+            }
 
         }
 
-      
-       
+
+
         private void cmb_keypress(object sender, KeyPressEventArgs e)
         {
+            //MEJORA: para que el usuario no pueda ingresar txt en el operador. 
+            //también funciona el validador de operadores
             e.Handled = true;
         }
 
+        #endregion
 
-            
+        #region Metodos nuevos
+        private void Limpiar()
+        {
+           //   El método Limpiar será llamado por el evento click del botón btnLimpiar y borrará
+           //    los datos de los TextBox, ComboBox y Label de la pantalla.
+            this.text_Numero1.Text = "";
+            this.text_Numero2.Text = "";
+            this.lblResultado.Text = "";
+            this.cmbOperador.Text = "";
+
+
+        }
+        
+        private static double Operar(string numero1, string numero2, string operador)
+        {
+            //El método Operar será estático recibirá los dos números y el operador para luego
+            //llamar al método Operar de Calculadora y retornar el resultado al método de evento
+            //del botón btnOperar que reflejará el resultado en el Label txtResultado.
+           
+            Entidades.Calculadora calcu = new Calculadora();
+                                 
+            Numero num1 = new Numero();
+            Numero num2 = new Numero();
+
+            num1.SetNumero= numero1;
+            num2.SetNumero = numero2;
+          
+
+            return calcu.Operar(num1, num2, operador);
+
+
+        }
+
+        #endregion
+
     }
 }

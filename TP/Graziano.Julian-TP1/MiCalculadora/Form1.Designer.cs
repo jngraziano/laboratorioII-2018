@@ -100,6 +100,7 @@
             // 
             // cmbOperador
             // 
+            this.cmbOperador.Font = new System.Drawing.Font("Arial Narrow", 15.25F, System.Drawing.FontStyle.Bold);
             this.cmbOperador.FormattingEnabled = true;
             this.cmbOperador.Items.AddRange(new object[] {
             "+",
@@ -108,7 +109,7 @@
             "/"});
             this.cmbOperador.Location = new System.Drawing.Point(211, 42);
             this.cmbOperador.Name = "cmbOperador";
-            this.cmbOperador.Size = new System.Drawing.Size(105, 23);
+            this.cmbOperador.Size = new System.Drawing.Size(105, 32);
             this.cmbOperador.TabIndex = 9;
             this.cmbOperador.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cmb_keypress);
             // 
@@ -123,7 +124,7 @@
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Arial Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(459, 6);
+            this.lblResultado.Location = new System.Drawing.Point(379, 6);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(0, 33);
             this.lblResultado.TabIndex = 11;
