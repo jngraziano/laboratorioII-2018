@@ -56,6 +56,35 @@ namespace MiCalculadora
 
         private void btnOperar_click(object sender, EventArgs e)
         {
+           
+            Calculadora calcu1 = new Calculadora();
+            string valor="+";
+            //calcu1.ValidarOperador();
+
+
+          
+            if (object.ReferenceEquals(cmbOperador.SelectedItem, null))
+            {
+                //const string mensaje = "Operador Incorrecto.";
+                //const string titulo = "Error";
+                //MessageBox.Show(mensaje, titulo, MessageBoxButtons.OK);
+
+                string resultado = Operar(text_Numero1.Text, text_Numero2.Text, valor).ToString();
+                lblResultado.Text = resultado;
+               
+            }
+            else
+            {
+                valor = cmbOperador.SelectedItem.ToString();
+                string resultado = Operar(text_Numero1.Text, text_Numero2.Text, valor).ToString();
+                lblResultado.Text = resultado;
+                
+            }
+          
+            //VER TEMA DE VALIDAR OPERADOR USANDO EL METODO QUE ESTA DENTRO DE CALCULADORA
+            //HICE PUBLIC EL METODO ESTATICO VALIDAROPERADOR
+            //VER TEMA VALIDAR NUMERO USANDO EL METODO DENTRO DE NUMERO          
+            
 
         }
 
@@ -82,11 +111,13 @@ namespace MiCalculadora
             //del botón btnOperar que reflejará el resultado en el Label txtResultado.
             Entidades.Calculadora calcu = new Calculadora();
             //trabajar con esto
+           
+            Numero numaux = new Numero();
             
-            Entidades.Numero num1 = new Entidades.Numero(numero1);
-            Entidades.Numero num2 = new Entidades.Numero(numero2);
+            Entidades.Numero num1 = new Entidades.Numero(numaux.ValidarNumero(numero1));
+            Entidades.Numero num2 = new Entidades.Numero(numaux.ValidarNumero(numero2));
 
-
+          
 
 
             return calcu.Operar(num1, num2, operador);
@@ -101,7 +132,17 @@ namespace MiCalculadora
 
         private void btnCerrar_click(object sender, EventArgs e)
         {
-
+            const string mensaje = "Desea Salir?";
+            const string titulo = "CERRAR";
+            var result = MessageBox.Show(mensaje, titulo, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else if (result == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
 
         private void btnConvertirABinario_Click(object sender, EventArgs e)
@@ -112,6 +153,13 @@ namespace MiCalculadora
         private void btnConvertirADecimal_click(object sender, EventArgs e)
         {
 
+        }
+
+      
+       
+        private void cmb_keypress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
         }
 
 

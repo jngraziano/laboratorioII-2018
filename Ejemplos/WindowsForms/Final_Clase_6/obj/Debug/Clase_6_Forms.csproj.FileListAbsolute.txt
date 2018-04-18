@@ -19,3 +19,6 @@ C:\Users\alumno.LAB5PC03\Downloads\Clases\Clase_1\Clase_6_Forms\obj\Debug\Clase_
 C:\Users\alumno\Downloads\Final_Clase_6_LabII_2016\Final_Clase_6\bin\Debug\Clase_6_Forms.exe.config
 C:\Users\alumno\Downloads\Final_Clase_6_LabII_2016\Final_Clase_6\obj\Debug\Clase_6_Forms.exe
 C:\Users\alumno\Downloads\Final_Clase_6_LabII_2016\Final_Clase_6\obj\Debug\Clase_6_Forms.pdb
+C:\Users\alumno\Desktop\labII\Ejemplos\WindowsForms\Final_Clase_6\bin\Debug\Clase_6_Forms.exe.config
+C:\Users\alumno\Desktop\labII\Ejemplos\WindowsForms\Final_Clase_6\obj\Debug\Clase_6_Forms.exe
+C:\Users\alumno\Desktop\labII\Ejemplos\WindowsForms\Final_Clase_6\obj\Debug\Clase_6_Forms.pdb

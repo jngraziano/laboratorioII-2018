@@ -51,6 +51,7 @@ namespace Entidades
                     devuelve = "*";
                     break;
                 default:
+                    devuelve = "+";
                     break;
             }
             return devuelve;
