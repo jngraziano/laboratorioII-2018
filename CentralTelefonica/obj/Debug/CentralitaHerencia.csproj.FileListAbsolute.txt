@@ -1,0 +1,5 @@
+C:\Users\alumno\Desktop\labII\CentralTelefonica\bin\Debug\CentralTelefonica.exe.config
+C:\Users\alumno\Desktop\labII\CentralTelefonica\bin\Debug\CentralTelefonica.exe
+C:\Users\alumno\Desktop\labII\CentralTelefonica\bin\Debug\CentralTelefonica.pdb
+C:\Users\alumno\Desktop\labII\CentralTelefonica\obj\Debug\CentralTelefonica.exe
+C:\Users\alumno\Desktop\labII\CentralTelefonica\obj\Debug\CentralTelefonica.pdb

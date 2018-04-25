@@ -16,3 +16,6 @@ C:\Users\jgraziano\Desktop\tano10\labII\Graziano.Julian.Ejercicios\bin\Debug\Gra
 C:\Users\jgraziano\Desktop\tano10\labII\Graziano.Julian.Ejercicios\obj\Debug\Ejercicio11.csprojResolveAssemblyReference.cache
 C:\Users\jgraziano\Desktop\tano10\labII\Graziano.Julian.Ejercicios\obj\Debug\Graziano.Julian.Ejercicios.exe
 C:\Users\jgraziano\Desktop\tano10\labII\Graziano.Julian.Ejercicios\obj\Debug\Graziano.Julian.Ejercicios.pdb
+C:\Users\alumno\Desktop\labII\Graziano.Julian.Ejercicios\bin\Debug\Graziano.Julian.Ejercicios.exe.config
+C:\Users\alumno\Desktop\labII\Graziano.Julian.Ejercicios\obj\Debug\Graziano.Julian.Ejercicios.exe
+C:\Users\alumno\Desktop\labII\Graziano.Julian.Ejercicios\obj\Debug\Graziano.Julian.Ejercicios.pdb
