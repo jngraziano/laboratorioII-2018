@@ -3,3 +3,9 @@ C:\Users\alumno\Desktop\labII\CentralTelefonica\bin\Debug\CentralTelefonica.exe
 C:\Users\alumno\Desktop\labII\CentralTelefonica\bin\Debug\CentralTelefonica.pdb
 C:\Users\alumno\Desktop\labII\CentralTelefonica\obj\Debug\CentralTelefonica.exe
 C:\Users\alumno\Desktop\labII\CentralTelefonica\obj\Debug\CentralTelefonica.pdb
+C:\Users\tano\Desktop\Tano10\labII\CentralTelefonica\bin\Debug\CentralTelefonica.exe.config
+C:\Users\tano\Desktop\Tano10\labII\CentralTelefonica\obj\Debug\CentralTelefonica.exe
+C:\Users\tano\Desktop\Tano10\labII\CentralTelefonica\obj\Debug\CentralTelefonica.pdb
+C:\Users\tano\Desktop\Tano10\labII\CentralTelefonica\bin\Debug\CentralTelefonica.exe
+C:\Users\tano\Desktop\Tano10\labII\CentralTelefonica\bin\Debug\CentralTelefonica.pdb
+C:\Users\tano\Desktop\Tano10\labII\CentralTelefonica\obj\Debug\CentralitaHerencia.csprojResolveAssemblyReference.cache
