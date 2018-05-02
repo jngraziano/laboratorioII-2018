@@ -12,6 +12,3 @@ C:\Users\tano\Desktop\Tano10\labII\CentralTelefonica\obj\Debug\CentralitaHerenci
 C:\Users\jgraziano\Desktop\tano10\labII\CentralTelefonica\bin\Debug\CentralTelefonica.exe.config
 C:\Users\jgraziano\Desktop\tano10\labII\CentralTelefonica\obj\Debug\CentralTelefonica.exe
 C:\Users\jgraziano\Desktop\tano10\labII\CentralTelefonica\obj\Debug\CentralTelefonica.pdb
-C:\Users\jgraziano\Desktop\tano10\labII\CentralTelefonica\bin\Debug\CentralTelefonica.exe
-C:\Users\jgraziano\Desktop\tano10\labII\CentralTelefonica\bin\Debug\CentralTelefonica.pdb
-C:\Users\jgraziano\Desktop\tano10\labII\CentralTelefonica\obj\Debug\CentralitaHerencia.csprojResolveAssemblyReference.cache

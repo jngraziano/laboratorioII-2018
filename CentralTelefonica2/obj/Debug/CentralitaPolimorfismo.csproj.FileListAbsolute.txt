@@ -1,0 +1,6 @@
+C:\Users\jgraziano\Desktop\tano10\labII\CentralTelefonica2\bin\Debug\CentralTelefonica.exe.config
+C:\Users\jgraziano\Desktop\tano10\labII\CentralTelefonica2\obj\Debug\CentralTelefonica.exe
+C:\Users\jgraziano\Desktop\tano10\labII\CentralTelefonica2\obj\Debug\CentralTelefonica.pdb
+C:\Users\jgraziano\Desktop\tano10\labII\CentralTelefonica2\bin\Debug\CentralTelefonica.exe
+C:\Users\jgraziano\Desktop\tano10\labII\CentralTelefonica2\bin\Debug\CentralTelefonica.pdb
+C:\Users\jgraziano\Desktop\tano10\labII\CentralTelefonica2\obj\Debug\CentralitaPolimorfismo.csprojResolveAssemblyReference.cache
