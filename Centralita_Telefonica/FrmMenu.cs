@@ -12,7 +12,9 @@ namespace Centralita_Telefonica
 {
     public partial class FrmMenu : Form
     {
-        Centralita centralita1 = new Centralita();
+        //Centralita centralita1 = new Centralita();
+
+        protected Centralita centralita1;
 
         public FrmMenu()
         {
