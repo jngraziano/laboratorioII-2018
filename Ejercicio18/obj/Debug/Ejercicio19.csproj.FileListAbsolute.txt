@@ -1,0 +1,3 @@
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio18\obj\Debug\Ejercicio19.csprojResolveAssemblyReference.cache
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio18\obj\Debug\Ejercicio18.exe
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio18\obj\Debug\Ejercicio18.pdb

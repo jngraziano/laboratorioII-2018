@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ejercicios_deClase", "Ejerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaHerencia", "CentralTelefonica\CentralitaHerencia.csproj", "{B28873C9-6928-46B4-A848-925C4D27CF22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaPolimorfismo", "CentralTelefonica2\CentralitaPolimorfismo.csproj", "{EC7BBD47-42CE-4460-BCDB-B506C5392D72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Centralita_Telefonica", "Centralita_Telefonica\Centralita_Telefonica.csproj", "{24AF1E70-7D07-4FAC-B4C2-3C62D967DC39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,10 +57,10 @@ Global
 		{B28873C9-6928-46B4-A848-925C4D27CF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B28873C9-6928-46B4-A848-925C4D27CF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B28873C9-6928-46B4-A848-925C4D27CF22}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EC7BBD47-42CE-4460-BCDB-B506C5392D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EC7BBD47-42CE-4460-BCDB-B506C5392D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EC7BBD47-42CE-4460-BCDB-B506C5392D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EC7BBD47-42CE-4460-BCDB-B506C5392D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24AF1E70-7D07-4FAC-B4C2-3C62D967DC39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AF1E70-7D07-4FAC-B4C2-3C62D967DC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AF1E70-7D07-4FAC-B4C2-3C62D967DC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AF1E70-7D07-4FAC-B4C2-3C62D967DC39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +73,6 @@ Global
 		{C6AFD520-79A4-4424-96D4-6FD91D1E74B8} = {8EBEE1E0-96C8-4FD7-AC98-2498A477F550}
 		{17DDC068-0ED8-4C3E-A2F4-27EAFDE66F90} = {7498014B-A2C6-423E-A4B3-9750CB603BFE}
 		{B28873C9-6928-46B4-A848-925C4D27CF22} = {941B0547-0AA2-417E-BBDD-C2E160A45F5C}
-		{EC7BBD47-42CE-4460-BCDB-B506C5392D72} = {941B0547-0AA2-417E-BBDD-C2E160A45F5C}
+		{24AF1E70-7D07-4FAC-B4C2-3C62D967DC39} = {941B0547-0AA2-417E-BBDD-C2E160A45F5C}
 	EndGlobalSection
 EndGlobal

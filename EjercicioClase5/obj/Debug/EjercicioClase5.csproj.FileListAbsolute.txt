@@ -10,3 +10,9 @@ C:\Users\jgraziano\Desktop\tano10\labII-2018\EjercicioClase5\obj\Debug\Ejercicio
 C:\Users\jgraziano\Desktop\tano10\labII\EjercicioClase5\bin\Debug\EjercicioClase5.exe.config
 C:\Users\jgraziano\Desktop\tano10\labII\EjercicioClase5\obj\Debug\EjercicioClase5.exe
 C:\Users\jgraziano\Desktop\tano10\labII\EjercicioClase5\obj\Debug\EjercicioClase5.pdb
+C:\Users\tano\Desktop\Tano10\labII\EjercicioClase5\bin\Debug\EjercicioClase5.exe.config
+C:\Users\tano\Desktop\Tano10\labII\EjercicioClase5\bin\Debug\EjercicioClase5.exe
+C:\Users\tano\Desktop\Tano10\labII\EjercicioClase5\bin\Debug\EjercicioClase5.pdb
+C:\Users\tano\Desktop\Tano10\labII\EjercicioClase5\obj\Debug\EjercicioClase5.csprojResolveAssemblyReference.cache
+C:\Users\tano\Desktop\Tano10\labII\EjercicioClase5\obj\Debug\EjercicioClase5.exe
+C:\Users\tano\Desktop\Tano10\labII\EjercicioClase5\obj\Debug\EjercicioClase5.pdb

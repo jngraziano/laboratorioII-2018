@@ -1,2 +1,3 @@
 C:\Users\jgraziano\Desktop\Solucion.General\Ejercicio20\bin\Debug\Ejercicio20.exe.config
 C:\Users\alumno\Desktop\labII\Ejercicio20\bin\Debug\Ejercicio20.exe.config
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio20\obj\Debug\Ejercicio20.csprojResolveAssemblyReference.cache

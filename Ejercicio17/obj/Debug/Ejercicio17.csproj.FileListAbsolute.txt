@@ -4,3 +4,9 @@ C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercici
 C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio17\bin\Debug\Ejercicio17.pdb
 C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio17\obj\Debug\Ejercicio17.exe
 C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio17\obj\Debug\Ejercicio17.pdb
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio17\bin\Debug\Ejercicio17.exe.config
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio17\bin\Debug\Ejercicio17.exe
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio17\bin\Debug\Ejercicio17.pdb
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio17\obj\Debug\Ejercicio17.csprojResolveAssemblyReference.cache
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio17\obj\Debug\Ejercicio17.exe
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio17\obj\Debug\Ejercicio17.pdb
