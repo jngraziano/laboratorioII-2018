@@ -26,7 +26,7 @@ namespace Entidades
         {
             this.anio = an;
             this.division = div;
-            this.profesor = profe; //wa
+            this.profesor = profe; 
         }
         #endregion
 
@@ -82,7 +82,7 @@ namespace Entidades
             if (c == a)
             { c.alumnos.Add(a); }
 
-           // c.alumnos.Add(a);
+          
             
             return c;
         }

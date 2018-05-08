@@ -8,14 +8,14 @@ namespace Entidades
 {
     public class Profesor:Persona
     {
-        //validar que tenga 8 caracteres el validardocumentacion
+       
 
         #region Variables Prop y Constructores
 
         protected DateTime fechaIngreso;
 
         public int Antiguedad { get { return fechaIngreso.CompareTo(DateTime.Today); } }
-        //corregir
+        //nunca lo vi, y justo no lo repase el DateTime
 
         public Profesor(string nomb, string apell, string docu)
         {

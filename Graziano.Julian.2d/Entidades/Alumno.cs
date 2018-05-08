@@ -46,13 +46,12 @@ namespace Entidades
             //X siendo las X números. Caso contrario retornará false y no se asignará el documento, siguiendo
             //luego con el curso normal de la aplicación.
             bool rta = false;
-            //if(
-            //{
-            //fijarse
+           
+            
+            
             base.documento=doc;
-                rta=true;
-            //}
-
+             rta=true;
+            
 
 
                return rta;
