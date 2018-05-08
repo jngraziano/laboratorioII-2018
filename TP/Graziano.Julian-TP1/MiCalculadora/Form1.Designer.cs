@@ -41,6 +41,7 @@
             // 
             // btnOperar
             // 
+            this.btnOperar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnOperar.Location = new System.Drawing.Point(59, 152);
             this.btnOperar.Name = "btnOperar";
             this.btnOperar.Size = new System.Drawing.Size(105, 45);
@@ -71,6 +72,7 @@
             // 
             // button2
             // 
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Location = new System.Drawing.Point(211, 152);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 45);
@@ -81,6 +83,7 @@
             // 
             // button3
             // 
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Location = new System.Drawing.Point(366, 152);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(105, 45);
@@ -117,7 +120,7 @@
             // 
             this.text_Numero2.Location = new System.Drawing.Point(366, 42);
             this.text_Numero2.Name = "text_Numero2";
-            this.text_Numero2.Size = new System.Drawing.Size(105, 20);
+            this.text_Numero2.Size = new System.Drawing.Size(120, 20);
             this.text_Numero2.TabIndex = 10;
             // 
             // lblResultado

@@ -13,10 +13,18 @@ namespace Centralita_Telefonica
     public partial class FrmLlamador : Form
     {
         //Centralita centralLlamador = new Centralita();
+        //Centralita centralMenu
 
-        public FrmLlamador() { }
-
-        public FrmLlamador(Centralita centralMenu)
+        //public FrmLlamador() { }
+        //public string Resultado
+        //{
+        //    get
+        //    {
+        //        return this.txtTexto.Text;
+        //        //fijarse
+        //    }
+        //}
+        public FrmLlamador()
         {
             //this.centralLlamador.GananciasPorLocal = centralMenu.GananciasPorLocal;
 
@@ -30,6 +38,72 @@ namespace Centralita_Telefonica
         private void FrmLlamador_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn3(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn4(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn5(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn6(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn7(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn8(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn9(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void btnLimpiar(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalir(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNroDestino_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLlamar(object sender, EventArgs e)
+        {
+            //tendria que usar la centralita?
         }
     }
 }

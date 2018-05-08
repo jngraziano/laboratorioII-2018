@@ -18,6 +18,7 @@ namespace Centralita_Telefonica
 
         public FrmMenu()
         {
+            //centralita1.
             InitializeComponent();
         }
 
@@ -29,8 +30,15 @@ namespace Centralita_Telefonica
 
         private void btnGenerar_Llamada(object sender, EventArgs e)
         {
-            FrmLlamador l = new FrmLlamador();
-            l.ShowDialog();
+            //FrmLlamador l = new FrmLlamador();
+            //if (l.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            //{
+                
+            //}
+           
+
+          
+          
         }
 
         private void btnFactu_Total(object sender, EventArgs e)
@@ -50,7 +58,17 @@ namespace Centralita_Telefonica
 
         private void btnSalir(object sender, EventArgs e)
         {
-
+            const string mensaje = "Desea Salir?";
+            const string titulo = "CERRAR";
+            var result = MessageBox.Show(mensaje, titulo, MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else if (result == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }
