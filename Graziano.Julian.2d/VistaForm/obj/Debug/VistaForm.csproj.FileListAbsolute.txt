@@ -1,0 +1,7 @@
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaForm\bin\Debug\VistaForm.exe
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaForm\bin\Debug\VistaForm.pdb
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.Cache
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaForm\obj\Debug\VistaForm.pdb

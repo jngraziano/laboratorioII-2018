@@ -1,0 +1,5 @@
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\bin\Debug\VistaConsola.exe.config
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\bin\Debug\VistaConsola.exe
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\bin\Debug\VistaConsola.pdb
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\obj\Debug\VistaConsola.exe
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\obj\Debug\VistaConsola.pdb
