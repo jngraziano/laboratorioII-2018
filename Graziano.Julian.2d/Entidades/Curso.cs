@@ -55,20 +55,20 @@ namespace Entidades
         public static bool operator ==(Curso c, Alumno a)
         {
             bool rta = false;
-           
-           
-            foreach (var item in c.alumnos)
-            {
-                
-                if (item.AnioDivision == a.AnioDivision)
-                { rta = true; }
-                else
-                {
-                    rta = false;
-                }
-                
-            }
 
+            if (c.alumnos.Count == 0)
+            { rta = true; }
+            else
+            {
+                foreach (var item in c.alumnos)
+                {
+
+                    if (item.AnioDivision == a.AnioDivision)
+                    { rta = true; }
+                    
+
+                }
+            }
        
             return rta;
 
