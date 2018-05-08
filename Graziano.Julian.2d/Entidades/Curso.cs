@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Curso
+    public class Curso
     {
         #region Variables prop y Constructores
         private List<Alumno> alumnos;
@@ -26,7 +26,7 @@ namespace Entidades
         {
             this.anio = an;
             this.division = div;
-            //this.profesor 
+            this.profesor = profe; //wa
         }
         #endregion
 

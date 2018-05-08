@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Profesor:Persona
+    public class Profesor:Persona
     {
         //validar que tenga 8 caracteres el validardocumentacion
 
@@ -29,6 +29,24 @@ namespace Entidades
             this.fechaIngreso = fechaIngres;
           
         }
+
+        #endregion
+
+        #region Metodos
+        public override string ExponerDatos()
+        {
+            return base.ExponerDatos();
+        }
+        public override bool ValidarDocumentacion(string doc)
+        {
+            bool rta = false;
+            if(doc.Length == 8)
+            {
+                rta = true;
+            }
+            return rta;
+        }
+
 
         #endregion
 

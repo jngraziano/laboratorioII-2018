@@ -42,19 +42,10 @@
     <Compile Include="Alumno.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Curso.cs" />
+    <Compile Include="Divisiones.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Profesor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\VistaConsola\VistaConsola.csproj">
-      <Project>{9c882ed5-effd-4892-9c62-56de6f78b31a}</Project>
-      <Name>VistaConsola</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\VistaForm\VistaForm.csproj">
-      <Project>{2cf5c82d-ee85-4466-9e30-c502be3a0af6}</Project>
-      <Name>VistaForm</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

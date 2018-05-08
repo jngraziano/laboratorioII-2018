@@ -1,9 +1,4 @@
 C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\Entidades\bin\Debug\Entidades.dll
 C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\Entidades\bin\Debug\Entidades.pdb
-C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\Entidades\obj\Debug\Entidades.dll
 C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\Entidades\obj\Debug\Entidades.pdb
-C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\Entidades\bin\Debug\VistaConsola.exe
-C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\Entidades\bin\Debug\VistaForm.exe
-C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\Entidades\bin\Debug\VistaConsola.pdb
-C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\Entidades\bin\Debug\VistaForm.pdb

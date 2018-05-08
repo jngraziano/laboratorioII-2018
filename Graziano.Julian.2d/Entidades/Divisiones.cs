@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Divisiones
-    {
+    //public class Division
+    //{
         #region ENUM
         public enum Divisiones
         {
@@ -19,5 +19,5 @@ namespace Entidades
 
         }
         #endregion
-    }
+    //}
 }
