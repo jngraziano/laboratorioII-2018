@@ -4,3 +4,5 @@ C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\bin\Debug\VistaCon
 C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\obj\Debug\VistaConsola.exe
 C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\obj\Debug\VistaConsola.pdb
 C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\obj\Debug\VistaConsola.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\bin\Debug\Entidades.pdb

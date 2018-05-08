@@ -37,17 +37,14 @@ namespace Entidades
             StringBuilder sb = new StringBuilder();
             sb.Append("Año/Division: ");
             sb.AppendLine(c.AnioDivision);
-            sb.Append("Profesor: ");
-            //sb.AppendLine(this.profesor. falta hacer profesor
+            sb.Append("Datos Profesor: \n");
+            sb.AppendLine(c.profesor.ExponerDatos());
+            //sb.Append("\n");
             foreach (var item in c.alumnos)
             {
-                sb.Append("Apellido: ");
-                sb.AppendLine(item.Apellido);
-                sb.Append("Nombre: ");
-                sb.AppendLine(item.Nombre);
-                sb.Append("Documento: ");
-                sb.AppendLine(item.Documento);
-
+                sb.Append("Datos Alumno: \n");
+                sb.AppendLine(item.ExponerDatos());
+                
                 
             }
 
@@ -58,14 +55,21 @@ namespace Entidades
         public static bool operator ==(Curso c, Alumno a)
         {
             bool rta = false;
+           
+           
             foreach (var item in c.alumnos)
             {
+                
                 if (item.AnioDivision == a.AnioDivision)
+                { rta = true; }
+                else
                 {
-                    return true;
+                    rta = false;
                 }
+                
             }
-            
+
+       
             return rta;
 
         }
@@ -77,6 +81,8 @@ namespace Entidades
         {
             if (c == a)
             { c.alumnos.Add(a); }
+
+           // c.alumnos.Add(a);
             
             return c;
         }

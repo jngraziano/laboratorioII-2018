@@ -49,7 +49,7 @@ namespace Entidades
             //if(
             //{
             //fijarse
-                base.documento=doc;
+            base.documento=doc;
                 rta=true;
             //}
 
