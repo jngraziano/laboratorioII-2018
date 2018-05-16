@@ -8,6 +8,8 @@ D:\VisualStudio\Federico Dávila\TP-02\Entidades\obj\Debug\Entidades.dll
 D:\VisualStudio\Federico Dávila\TP-02\Entidades\obj\Debug\Entidades.pdb
 D:\VisualStudio\Federico Dávila\TP-02\Entidades\bin\Debug\Entidades.dll
 D:\VisualStudio\Federico Dávila\TP-02\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\labII\TP\TP02\Esquema-TP-02\TP-02\Entidades\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\labII\TP\TP02\Esquema-TP-02\TP-02\Entidades\bin\Debug\Entidades.pdb
 C:\Users\alumno\Desktop\labII\TP\TP02\Esquema-TP-02\TP-02\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 C:\Users\alumno\Desktop\labII\TP\TP02\Esquema-TP-02\TP-02\Entidades\obj\Debug\Entidades.dll
 C:\Users\alumno\Desktop\labII\TP\TP02\Esquema-TP-02\TP-02\Entidades\obj\Debug\Entidades.pdb

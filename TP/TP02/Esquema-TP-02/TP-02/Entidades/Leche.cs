@@ -8,31 +8,37 @@ using System.Drawing;
 
 namespace Entidades_2017
 {
-    class Leche : Producto
+    public class Leche : Producto
     {
         public enum ETipo { Entera, Descremada }
+
         ETipo _tipo;
 
         /// <summary>
         /// Por defecto, TIPO será ENTERA
         /// </summary>
-        /// <param name="marca"></param>
+        /// <param name="codbar"></param>
         /// <param name="patente"></param>
         /// <param name="color"></param>
-        public Leche(EMarca marca, string patente, ConsoleColor color)
-            : base(patente, marca, color)
+        public Leche(EMarca marca, string codbar, ConsoleColor color, ETipo tipo)
+            : base(codbar, marca, color)
         {
-            _tipo = ETipo.Entera;
+            this._tipo = tipo;
+        }
+        public Leche(EMarca marca, string codbar, ConsoleColor color)
+            : base(codbar, marca, color)
+        {
+            this._tipo = ETipo.Entera;
         }
 
         /// <summary>
         /// Las leches tienen 20 calorías
         /// </summary>
-        protected override short CantidadCalorias
+        public override short CantidadCalorias
         {
             get
             {
-                return this.CantidadCalorias;
+                return 20;
             }
         }
 
@@ -41,13 +47,14 @@ namespace Entidades_2017
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("LECHE");
-            sb.AppendLine(this);
-            sb.AppendLine("CALORIAS : {0}", this.CantidadCalorias);
-            sb.AppendLine("TIPO : " + this._tipo);
+            sb.AppendLine(base.Mostrar()); //???
+            sb.AppendFormat("CALORIAS : {0}", this.CantidadCalorias); // cambie , por +
+            sb.AppendLine("\nTIPO : " + this._tipo);
             sb.AppendLine("");
             sb.AppendLine("---------------------");
+            
 
-            return sb;
+            return sb.ToString();
         }
     }
 }

@@ -1,0 +1,6 @@
+Crear nuevo proyecto test unitario
+
+IMPORTANTE ejercicio clase 22 o algo asi tiene uno hecho
+
+Se utiliza Asset.  y el metodo que querramos, despues vamos a Test- Windows- Text Explorer
+

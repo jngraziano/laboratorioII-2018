@@ -9,18 +9,20 @@ namespace Entidades_2017
     /// <summary>
     /// La clase Producto será abstracta, evitando que se instancien elementos de este tipo.
     /// </summary>
-     public enum EMarca
-       {
-        Serenisima, Campagnola, Arcor, Ilolay, Sancor, Pepsico
-       }
+     
     public abstract class Producto
     {
-        
+        public enum EMarca
+        {
+            Serenisima, Campagnola, Arcor, Ilolay, Sancor, Pepsico
+        }
 
         protected EMarca _marca;
         protected string _codigoDeBarras;
         protected ConsoleColor _colorPrimarioEmpaque;
 
+        public Producto()
+        { }
         public Producto(string codbar, EMarca marca, ConsoleColor color)
         {
             this._codigoDeBarras = codbar;
@@ -45,10 +47,10 @@ namespace Entidades_2017
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("CODIGO DE BARRAS: {0}\r\n", p._codigoDeBarras);
-            sb.AppendLine("MARCA          : {0}\r\n", p._marca.ToString());
-            sb.AppendLine("COLOR EMPAQUE  : {0}\r\n", p._colorPrimarioEmpaque.ToString());
-            sb.AppendLine("---------------------");
+            sb.AppendFormat("CODIGO DE BARRAS: {0}\r\n" , p._codigoDeBarras);
+            sb.AppendFormat("MARCA          : {0}\r\n" , p._marca.ToString()); //cambie a todos , por +
+            sb.AppendFormat("COLOR EMPAQUE  : {0}\r\n", p._colorPrimarioEmpaque.ToString());
+            sb.AppendFormat("---------------------");
 
             return sb.ToString();
         }
