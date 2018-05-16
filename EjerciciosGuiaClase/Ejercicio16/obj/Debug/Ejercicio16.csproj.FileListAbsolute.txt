@@ -1,0 +1,20 @@
+C:\Users\alumno\Desktop\labII2018\Graziano.Julian.Ejercicios\Ejercicio16\bin\Debug\Ejercicio16.exe.config
+C:\Users\alumno\Desktop\labII2018\Graziano.Julian.Ejercicios\Ejercicio16\bin\Debug\Ejercicio16.exe
+C:\Users\alumno\Desktop\labII2018\Graziano.Julian.Ejercicios\Ejercicio16\bin\Debug\Ejercicio16.pdb
+C:\Users\alumno\Desktop\labII2018\Graziano.Julian.Ejercicios\Ejercicio16\obj\Debug\Ejercicio16.exe
+C:\Users\alumno\Desktop\labII2018\Graziano.Julian.Ejercicios\Ejercicio16\obj\Debug\Ejercicio16.pdb
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio16\bin\Debug\Ejercicio16.exe.config
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio16\bin\Debug\Ejercicio16.exe
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio16\bin\Debug\Ejercicio16.pdb
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio16\obj\Debug\Ejercicio16.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio16\obj\Debug\Ejercicio16.exe
+C:\Users\alumno\Desktop\++Solucion General++\Graziano.Julian.Ejercicios\Ejercicio16\obj\Debug\Ejercicio16.pdb
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio16\bin\Debug\Ejercicio16.exe.config
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio16\bin\Debug\Ejercicio16.exe
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio16\bin\Debug\Ejercicio16.pdb
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio16\obj\Debug\Ejercicio16.csprojResolveAssemblyReference.cache
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio16\obj\Debug\Ejercicio16.exe
+C:\Users\tano\Desktop\Tano10\labII\Ejercicio16\obj\Debug\Ejercicio16.pdb
+C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Ejercicio16\bin\Debug\Ejercicio16.exe.config
+C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Ejercicio16\obj\Debug\Ejercicio16.exe
+C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Ejercicio16\obj\Debug\Ejercicio16.pdb
