@@ -11,8 +11,8 @@ namespace Entidades_2017
     /// </summary>
     public sealed class Changuito
     {
-        List<Producto> _productos;
-        int _espacioDisponible;
+        public List<Producto> _productos;
+        public int _espacioDisponible;
         
         public enum ETipo
         {
@@ -51,24 +51,40 @@ namespace Entidades_2017
         /// <param name="c">Elemento a exponer</param>
         /// <param name="ETipo">Tipos de ítems de la lista a mostrar</param>
         /// <returns></returns>
-        public static string Mostrar(Changuito c, ETipo tipo) //quitar static
+        public static string Mostrar(Changuito c, ETipo tipo) 
         {
+            
             StringBuilder sb = new StringBuilder();
-
             sb.AppendFormat("Tenemos {0} lugares ocupados de un total de {1} disponibles", c._productos.Count, c._espacioDisponible);
             sb.AppendLine("");
+
             foreach (Producto v in c._productos)
             {
                 switch (tipo)
                 {
                     case ETipo.Snacks:
-                        sb.AppendLine(v.Mostrar());
-                        break;
+                        if (v is Snacks)
+                        {
+                            sb.AppendLine(((Snacks)v).Mostrar());
+                            break;
+                        }
+                       
+                            break;
+                        
                     case ETipo.Dulce:
-                        sb.AppendLine(v.Mostrar());
-                        break;
+                        if (v is Dulce)
+                        {
+                            sb.AppendLine(((Dulce)v).Mostrar());
+                            break;
+                        }
+                            break;  
                     case ETipo.Leche:
-                        sb.AppendLine(v.Mostrar());
+                        if (v is Leche)
+                        { 
+                            sb.AppendLine(((Leche)v).Mostrar());
+                            break;
+                        }
+                       
                         break;
                     default:
                         sb.AppendLine(v.Mostrar());
@@ -89,15 +105,30 @@ namespace Entidades_2017
         /// <returns></returns>
         public static Changuito operator +(Changuito c, Producto p)
         {
+            //NO valida correctamente la cantidad de productos, no le encontré la vuelta.
+            
             foreach (Producto v in c._productos)
             {
                 if (v == p)
+                {
                     return c;
+                }
+
+                    
             }
 
             c._productos.Add(p);
+
+           
             return c;
+
         }
+           
+
+           
+         
+           
+       
         /// <summary>
         /// Quitará un elemento de la lista
         /// </summary>
@@ -106,11 +137,13 @@ namespace Entidades_2017
         /// <returns></returns>
         public static Changuito operator -(Changuito c, Producto p)
         {
-            foreach (Producto v in c._productos)
+           
+            for (int i = c._productos.Count - 1; i >= 0; i--)
             {
-                if (v == p)
+                if (p == c._productos[i])
                 {
-                    c._productos.Remove(p);
+                    c._productos.RemoveAt(i);
+                  
                 }
             }
 

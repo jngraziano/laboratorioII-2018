@@ -47,8 +47,8 @@ namespace Entidades_2017
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("LECHE");
-            sb.AppendLine(base.Mostrar()); //???
-            sb.AppendFormat("CALORIAS : {0}", this.CantidadCalorias); // cambie , por +
+            sb.AppendLine(base.Mostrar());
+            sb.AppendFormat("CALORIAS : {0}", this.CantidadCalorias);
             sb.AppendLine("\nTIPO : " + this._tipo);
             sb.AppendLine("");
             sb.AppendLine("---------------------");

@@ -18,3 +18,6 @@ C:\Users\tano\Desktop\Tano10\labII\Ejercicio16\obj\Debug\Ejercicio16.pdb
 C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Ejercicio16\bin\Debug\Ejercicio16.exe.config
 C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Ejercicio16\obj\Debug\Ejercicio16.exe
 C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Ejercicio16\obj\Debug\Ejercicio16.pdb
+C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio16\bin\Debug\Ejercicio16.exe.config
+C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio16\obj\Debug\Ejercicio16.exe
+C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio16\obj\Debug\Ejercicio16.pdb

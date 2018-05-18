@@ -48,7 +48,7 @@ namespace Entidades_2017
             StringBuilder sb = new StringBuilder();
 
             sb.AppendFormat("CODIGO DE BARRAS: {0}\r\n" , p._codigoDeBarras);
-            sb.AppendFormat("MARCA          : {0}\r\n" , p._marca.ToString()); //cambie a todos , por +
+            sb.AppendFormat("MARCA          : {0}\r\n" , p._marca.ToString()); 
             sb.AppendFormat("COLOR EMPAQUE  : {0}\r\n", p._colorPrimarioEmpaque.ToString());
             sb.AppendFormat("---------------------");
 
@@ -73,7 +73,7 @@ namespace Entidades_2017
         /// <returns></returns>
         public static bool operator !=(Producto v1, Producto v2)
         {
-            return (v1._codigoDeBarras == v2._codigoDeBarras);
+            return !(v1 == v2);
         }
     }
 }
