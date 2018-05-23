@@ -1,0 +1,5 @@
+C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Clase17-Library\bin\Debug\Clase17-Library.dll
+C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Clase17-Library\bin\Debug\Clase17-Library.pdb
+C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Clase17-Library\obj\Debug\Clase17-Library.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Clase17-Library\obj\Debug\Clase17-Library.dll
+C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Clase17-Library\obj\Debug\Clase17-Library.pdb
