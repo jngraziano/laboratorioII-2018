@@ -1,1 +1,9 @@
 C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Ejercicio60\bin\Debug\Ejercicio60.exe.config
+C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio60\bin\Debug\Ejercicio60.exe.config
+C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio60\obj\Debug\Ejercicio60.Form1.resources
+C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio60\obj\Debug\Ejercicio60.Properties.Resources.resources
+C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio60\obj\Debug\Ejercicio60.csproj.GenerateResource.Cache
+C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio60\bin\Debug\Ejercicio60.exe
+C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio60\bin\Debug\Ejercicio60.pdb
+C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio60\obj\Debug\Ejercicio60.exe
+C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio60\obj\Debug\Ejercicio60.pdb

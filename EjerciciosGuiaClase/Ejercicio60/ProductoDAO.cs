@@ -27,10 +27,10 @@ namespace Ejercicio60
          Data Source = es el nombre del servidor en el SQL Server2012
         
         */
-        private string connectionStr = "Data Source=.\\SQLEXPRESS;Initial Catalog=AdventureWorks2012;Integrated Security=True";
+        private static string connectionStr = "Data Source=.\\SQLEXPRESS;Initial Catalog=AdventureWorks2012;Integrated Security=True";
 
 
-        public ProductoDAO()
+        static ProductoDAO()
         {
             //creo la conexion pasandole el string
             ProductoDAO._conexion = new SqlConnection(connectionStr);
@@ -47,8 +47,75 @@ namespace Ejercicio60
         #endregion
 
         #region Metodos
+        public static Producto ObtieneProducto()
+        {
+            bool flag = false;
+            Producto producto = null;
 
 
+            try
+            {
+                ProductoDAO._comando.CommandText = "SELECT  Production.Product.ProductID,Name,ProductNumber FROM Production.Product WHERE (ProductID = 1 );";
+                ProductoDAO._conexion.Open();
+
+                SqlDataReader oDr = ProductoDAO._comando.ExecuteReader();
+
+                if (oDr.Read())
+                {
+                    producto = new Producto(int.Parse(oDr["ProductID"].ToString()), oDr["Name"].ToString(), oDr["ProductNumber"].ToString());
+
+                }
+                oDr.Close();
+                flag = true;
+
+            }
+            catch (Exception ex)
+            {
+                
+                throw ex;
+            }           
+            
+            ProductoDAO._conexion.Close();
+            return producto;
+        }
+
+        public static bool AgregarProducto(Producto p)
+        {
+            string sql = "INSERT INTO Personas (nombre,apellido,dni) VALUES(";
+            //sql = sql + "'" + p.Nombre + "','" + p.Apellido + "'," + p.DNI.ToString() + ")";
+
+            return ProductoDAO.EjecutarNonQuery(sql);
+        }
+
+
+
+        private static bool EjecutarNonQuery(string sql)
+        {
+            bool todoOk = false;
+            try
+            {
+                // LE PASO LA INSTRUCCION SQL
+                ProductoDAO._comando.CommandText = sql;
+
+                // ABRO LA CONEXION A LA BD
+                ProductoDAO._conexion.Open();
+
+                // EJECUTO EL COMMAND
+                ProductoDAO._comando.ExecuteNonQuery();
+
+                todoOk = true;
+            }
+            catch (Exception e)
+            {
+                todoOk = false;
+            }
+            finally
+            {
+                if (todoOk)
+                    ProductoDAO._conexion.Close();
+            }
+            return todoOk;
+        }
 
 
         #endregion
