@@ -7,3 +7,5 @@ C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio60\bin\Debug\Eje
 C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio60\bin\Debug\Ejercicio60.pdb
 C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio60\obj\Debug\Ejercicio60.exe
 C:\Users\tano\Desktop\Tano10\labII\EjerciciosGuiaClase\Ejercicio60\obj\Debug\Ejercicio60.pdb
+C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Ejercicio60\obj\Debug\Ejercicio60.exe
+C:\Users\alumno\Desktop\labII\EjerciciosGuiaClase\Ejercicio60\obj\Debug\Ejercicio60.pdb
