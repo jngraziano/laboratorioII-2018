@@ -1,0 +1,5 @@
+C:\Users\alumno\Desktop\20180626 SP Lab II\GRAZIANO.JULIAN\Excepciones\bin\Debug\Excepciones.exe.config
+C:\Users\alumno\Desktop\20180626 SP Lab II\GRAZIANO.JULIAN\Excepciones\bin\Debug\Excepciones.exe
+C:\Users\alumno\Desktop\20180626 SP Lab II\GRAZIANO.JULIAN\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\alumno\Desktop\20180626 SP Lab II\GRAZIANO.JULIAN\Excepciones\obj\Debug\Excepciones.exe
+C:\Users\alumno\Desktop\20180626 SP Lab II\GRAZIANO.JULIAN\Excepciones\obj\Debug\Excepciones.pdb
