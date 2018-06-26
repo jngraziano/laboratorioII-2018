@@ -8,3 +8,8 @@ D:\Federico\VB .Net\Visual C#\utn\Examenes\20180626-SP\Entidades\obj\Debug\Entid
 C:\Users\alumno\Desktop\20180626 SP Lab II\GRAZIANO.JULIAN\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 C:\Users\alumno\Desktop\20180626 SP Lab II\GRAZIANO.JULIAN\Entidades\obj\Debug\Entidades.dll
 C:\Users\alumno\Desktop\20180626 SP Lab II\GRAZIANO.JULIAN\Entidades\obj\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\20180626 SP Lab II\GRAZIANO.JULIAN\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\alumno\Desktop\20180626 SP Lab II\GRAZIANO.JULIAN\Entidades\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\20180626 SP Lab II\GRAZIANO.JULIAN\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\20180626 SP Lab II\GRAZIANO.JULIAN\Entidades\bin\Debug\Excepciones.exe
+C:\Users\alumno\Desktop\20180626 SP Lab II\GRAZIANO.JULIAN\Entidades\bin\Debug\Excepciones.pdb

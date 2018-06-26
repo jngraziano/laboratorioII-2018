@@ -22,8 +22,17 @@ namespace _20180626_SP_Console
 
             Grupo grupoD = new Grupo(Letras.D, Torneo.MAX_EQUIPOS_GRUPO);
             grupoD.Leer();
+
+           
+
+            
             t.Grupos.Add(grupoD);
 
+            //public void ImprimirResultados(Grupo unGrupo)
+            //{
+            //    unGrupo.MostrarTabla();
+
+            //}
             // Agregar Thread
 
             // **************

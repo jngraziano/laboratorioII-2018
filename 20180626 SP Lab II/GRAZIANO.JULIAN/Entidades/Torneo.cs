@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Torneo:IEntradaSalida<bool>
+    public class Torneo//:IEntradaSalida<bool>
     {
 
 
         private List<Grupo> grupos;
         private string nombre;
         public const int MAX_EQUIPOS_GRUPO = 4;
+
+        public List<Grupo> Grupos { get { return this.grupos; } }
       
         
         public Torneo(string nombre)
