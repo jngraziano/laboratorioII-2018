@@ -1,0 +1,4 @@
+C:\Users\alumno\Desktop\labII\2ParcialRecu\CascaraFinalJulio2018\Test\bin\Debug\Test.dll
+C:\Users\alumno\Desktop\labII\2ParcialRecu\CascaraFinalJulio2018\Test\bin\Debug\Test.pdb
+C:\Users\alumno\Desktop\labII\2ParcialRecu\CascaraFinalJulio2018\Test\obj\Debug\Test.dll
+C:\Users\alumno\Desktop\labII\2ParcialRecu\CascaraFinalJulio2018\Test\obj\Debug\Test.pdb

@@ -1,0 +1,16 @@
+c:\users\horacio\documents\visual studio 2017\Projects\FinalJulio2018\Entidades\bin\Debug\Entidades.dll
+c:\users\horacio\documents\visual studio 2017\Projects\FinalJulio2018\Entidades\bin\Debug\Entidades.pdb
+c:\users\horacio\documents\visual studio 2017\Projects\FinalJulio2018\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+c:\users\horacio\documents\visual studio 2017\Projects\FinalJulio2018\Entidades\obj\Debug\Entidades.dll
+c:\users\horacio\documents\visual studio 2017\Projects\FinalJulio2018\Entidades\obj\Debug\Entidades.pdb
+c:\users\horacio\documents\visual studio 2017\Projects\FinalJulio2018\Entidades\bin\Debug\Excepciones.dll
+c:\users\horacio\documents\visual studio 2017\Projects\FinalJulio2018\Entidades\bin\Debug\Excepciones.pdb
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\CascaraFinalJulio2018\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\CascaraFinalJulio2018\Entidades\obj\Debug\Entidades.dll
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\CascaraFinalJulio2018\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\CascaraFinalJulio2018\Entidades\bin\Debug\Entidades.dll
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\CascaraFinalJulio2018\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\CascaraFinalJulio2018\Entidades\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\CascaraFinalJulio2018\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\CascaraFinalJulio2018\Entidades\obj\Debug\Entidades.dll
+C:\Users\alumno\Desktop\CascaraFinalJulio2018\Entidades\obj\Debug\Entidades.pdb

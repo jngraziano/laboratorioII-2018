@@ -1,0 +1,4 @@
+C:\Users\alumno\Desktop\labII\2ParcialRecu\CascaraFinalJulio2018\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\alumno\Desktop\labII\2ParcialRecu\CascaraFinalJulio2018\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\alumno\Desktop\labII\2ParcialRecu\CascaraFinalJulio2018\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\alumno\Desktop\labII\2ParcialRecu\CascaraFinalJulio2018\Excepciones\obj\Debug\Excepciones.pdb
