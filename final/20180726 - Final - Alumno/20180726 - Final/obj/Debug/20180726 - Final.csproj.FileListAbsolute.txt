@@ -1,0 +1,13 @@
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20180726 - Final\20180726 - Final\bin\Debug\20180726 - Final.exe.config
+D:\Federico\VB .Net\Visual C#\utn\Examenes\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\bin\Debug\20180726 - Final.exe.config
+C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\bin\Debug\20180726 - Final.exe.config
+C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\20180726 - Final.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\_20180726___Final.FrmPpal.resources
+C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\_20180726___Final.Properties.Resources.resources
+C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\20180726 - Final.csproj.GenerateResource.Cache
+C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\bin\Debug\20180726 - Final.exe
+C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\bin\Debug\20180726 - Final.pdb
+C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\20180726 - Final.exe
+C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\20180726 - Final.pdb
