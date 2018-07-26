@@ -1,0 +1,3 @@
+C:\Users\jgrazian\Desktop\tano\labII\PracticaFinal\PracticaFinal\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\jgrazian\Desktop\tano\labII\PracticaFinal\PracticaFinal\Entidades\obj\Debug\Entidades.Properties.Resources.resources
+C:\Users\jgrazian\Desktop\tano\labII\PracticaFinal\PracticaFinal\Entidades\obj\Debug\Entidades.csproj.GenerateResource.Cache
