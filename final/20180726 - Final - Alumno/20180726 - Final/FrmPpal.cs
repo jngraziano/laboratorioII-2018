@@ -152,7 +152,7 @@ namespace _20180726___Final
         /// <param name="e"></param>
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            #region Guardo en XML y cierro los hilos
             IArchivos<string, Sofa> archivoXML = new ArchivoXML<Sofa>();
             string ruta = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + "GuardoXML.XML";
             foreach (Sofa item in this.listaAsientos)
@@ -170,9 +170,11 @@ namespace _20180726___Final
                     miHilo.Abort();
                 }
 
-                
+
             }
-           
+
+            #endregion
+
 
         }
 
