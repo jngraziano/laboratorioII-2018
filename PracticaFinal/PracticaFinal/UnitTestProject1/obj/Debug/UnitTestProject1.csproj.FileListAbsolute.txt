@@ -1,5 +1,0 @@
-C:\Users\jgrazian\Desktop\tano\labII\PracticaFinal\PracticaFinal\UnitTestProject1\bin\Debug\UnitTestProject1.dll
-C:\Users\jgrazian\Desktop\tano\labII\PracticaFinal\PracticaFinal\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
-C:\Users\jgrazian\Desktop\tano\labII\PracticaFinal\PracticaFinal\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
-C:\Users\jgrazian\Desktop\tano\labII\PracticaFinal\PracticaFinal\UnitTestProject1\obj\Debug\UnitTestProject1.dll
-C:\Users\jgrazian\Desktop\tano\labII\PracticaFinal\PracticaFinal\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

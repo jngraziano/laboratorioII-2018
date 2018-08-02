@@ -12,26 +12,26 @@ using System.Xml;
 
 namespace Entidades
 {
-    public class ArchivoXML : IGuardar<string, Sofa>
+    public class ArchivoXML<T> : IArchivos<string, T>
     {
 
         #region GuardarXML
-        public string Guardar(string archivo, Sofa datos)
+        public string Guardar(string archivo, T datos)
         {
             try
             {
-                XmlSerializer serializer = new XmlSerializer(typeof(Sofa));
+                XmlSerializer serializer = new XmlSerializer(typeof(T));
                
                 XmlTextWriter writer = new XmlTextWriter(archivo, Encoding.UTF8);
                 serializer.Serialize(writer, datos);
                 writer.Close();
 
-                return "ok";
+                return "Serializado con exito";
             }
-            catch (Exception e)
+            catch (MensajeException e)
             {
-                Console.WriteLine(e.Message);
-                return "no ok";
+                return e.Message;
+                
             }
         }
 
@@ -39,25 +39,39 @@ namespace Entidades
         #endregion
 
         #region LeerXML
-        public Sofa Leer(string archivo)
+        public T Leer(string archivo)
         {
-            Sofa datos = new Sofa();
-            try
-            {
-                XmlSerializer serializer = new XmlSerializer(typeof(Sofa));
-               
-                XmlTextReader writer = new XmlTextReader(archivo);
-                
-                datos = (Sofa)serializer.Deserialize(writer);
-                writer.Close();
 
-                return datos;
-            }
-            catch (Exception)
-            {
-                datos = default(Sofa);
-                return datos;
-            }
+            T datos;
+      
+
+                    try  
+                    {
+                        XmlSerializer serializer = new XmlSerializer(typeof(T));
+
+                        FileStream fsin = new FileStream("archivoXML.XML", FileMode.Append, FileAccess.Write);
+                        datos = (T)serializer.Deserialize(fsin);
+                        fsin.Close();
+
+                        return datos;
+                    }  
+                    catch(FileNotFoundException noencontrado)  
+                    {
+                        return datos = default(T);
+                        throw new MensajeException("Archivo no encontrado.", noencontrado);
+                        
+                    }
+
+                   
+
+               
+                   
+
+                //XmlTextReader writer = new XmlTextReader(archivo);
+
+                //datos = (T)serializer.Deserialize(writer);
+                //writer.Close();
+ 
         }
         #endregion
 

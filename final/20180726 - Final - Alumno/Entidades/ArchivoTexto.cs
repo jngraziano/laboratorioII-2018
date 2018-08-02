@@ -13,35 +13,47 @@ using System.Xml;
 
 namespace Entidades
 {
-    public class ArchivoTexto//:IGuardar<string,Sofa>
+    public class ArchivoTexto:IArchivos<string,string>
     {
         //V Guardar(string path, T elemento);
 
         //T Leer(string path);
 
         #region GuardarArchivoTxt
-        public  string Guardar(string path, Sofa unSofa)
+        public string Guardar(string archivo, string elemento)
         {
-            string flag = "nook";
             try
             {
-                //guardo la ruta y le doy al archivo el nombre que recibo
-                string ruta = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + path;
+                using (StreamWriter file = new StreamWriter(archivo, true))
+                {
+                    file.WriteLine(elemento);
+                }
 
-                StreamWriter txt = new StreamWriter(ruta, true);
-                txt.WriteLine(unSofa);
-                txt.Close();
-
-                flag = "ok";
+                return elemento;
             }
-            catch (FileNotFoundException)
+            catch (Exception)
             {
-                string error = "Archivo no encontrado";
-                throw new FileNotFoundException(error);
-
+                return elemento;
             }
+            
+            //string flag = "nook";
+            //try
+            //{
 
-            return flag;
+            //    StreamWriter txt = new StreamWriter(archivo, true);
+            //    txt.WriteLine(elemento);
+            //    txt.Close();
+
+            //    flag = "ok";
+            //}
+            //catch (FileNotFoundException)
+            //{
+            //    string error = "Archivo no encontrado";
+            //    throw new FileNotFoundException(error);
+
+            //}
+
+            //return flag;
 
         }
         #endregion

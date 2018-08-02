@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Windows.Forms;
+using System.IO;
+using System.Xml.Serialization;
+using System.Xml;
 using Entidades;
 
 namespace _20180726___Final
@@ -22,14 +25,14 @@ namespace _20180726___Final
     //   - Probar todos los asientos mediante un Thread. Crear un evento FinPruebaCalidad() en Asiento para que informe si la prueba pasó (true) o no (false) y mostrar el resultado por pantalla.
     public partial class FrmPpal : Form
     {
-         List<Asiento> lista;
+         List<Asiento> listaAsientos;
          Thread miHilo;
 
         public FrmPpal()
         {
             InitializeComponent();
-            
-            this.lista = new List<Asiento>();
+
+            this.listaAsientos = new List<Asiento>();
         }
 
         /// <summary>
@@ -48,20 +51,20 @@ namespace _20180726___Final
 
             Random ram = new Random();
             int devuelveRam;
-            devuelveRam=ram.Next(0, 3);
+            devuelveRam=ram.Next(0, 4);
             switch (devuelveRam)
             {
                 case 0:
-                    unSofa.color = Sofa.miColor.Blanco;
+                    unSofa.color = Sofa.Color.Blanco;
                     break;
                 case 1:
-                    unSofa.color = Sofa.miColor.Natural;
+                    unSofa.color = Sofa.Color.Natural;
                     break;
                 case 2:
-                    unSofa.color = Sofa.miColor.Negro;
+                    unSofa.color = Sofa.Color.Negro;
                     break;
                 case 3:
-                    unSofa.color = Sofa.miColor.Rojo;
+                    unSofa.color = Sofa.Color.Rojo;
                     break;
                 default:
                     break;
@@ -71,7 +74,17 @@ namespace _20180726___Final
             //LO GUARDO
             try 
 	        {
-                //ArchivoTexto.Guardar("GuardoTXT", unSofa);
+
+               
+                //TextWriter WriteFileStream = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.CommonDocuments));
+                string ruta = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + "GuardoTXT.txt";
+                IArchivos<string, string> archivoTXT = new ArchivoTexto();
+                
+                    archivoTXT.Guardar(ruta, unSofa.ToString());
+          
+
+                this.listaAsientos.Add(unSofa);
+                
 	        }
             catch (Exception excep)
             {
@@ -128,7 +141,7 @@ namespace _20180726___Final
             }
             string archivo = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" +"GuardoXML";
 
-            foreach (var item in this.lista)
+            foreach (var item in this.listaAsientos)
 	        {
                 try 
 	                {
@@ -157,9 +170,10 @@ namespace _20180726___Final
 
         public void BancoDePrueba()
         {
-            foreach (var item in this.lista)
+            foreach (var item in this.listaAsientos)
             {
                 item.ProbarAsiento();
+                MessageBox.Show(item.ToString());
                 
             }
            

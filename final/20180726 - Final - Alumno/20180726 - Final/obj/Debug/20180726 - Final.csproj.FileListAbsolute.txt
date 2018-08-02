@@ -11,3 +11,14 @@ C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Fi
 C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\bin\Debug\Entidades.pdb
 C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\20180726 - Final.exe
 C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\20180726 - Final.pdb
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\20180726 - Final\bin\Debug\20180726 - Final.exe.config
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\20180726 - Final.exe
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\20180726 - Final.pdb
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\20180726 - Final.csprojResolveAssemblyReference.cache
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\_20180726___Final.FrmPpal.resources
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\_20180726___Final.Properties.Resources.resources
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\20180726 - Final\obj\Debug\20180726 - Final.csproj.GenerateResource.Cache
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\20180726 - Final\bin\Debug\20180726 - Final.exe
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\20180726 - Final\bin\Debug\20180726 - Final.pdb
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\20180726 - Final\bin\Debug\Entidades.dll
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\20180726 - Final\bin\Debug\Entidades.pdb

@@ -43,9 +43,12 @@ namespace Entidades
 
         public abstract void ProbarAsiento();
 
-        public void InformarFinDePrueba(bool rta)
+        public void  InformarFinDePrueba(bool rta)
         {
-            FinPruebaCalidad("Sofa", rta);
+           
+            this.FinPruebaCalidad(this.ToString(), rta);
         }
+
+        
     }
 }

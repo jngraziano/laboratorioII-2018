@@ -15,7 +15,7 @@ namespace Entidades
     // Utilizar la teoría de encapsulamiento en todas las clases.
     public class Sofa:Asiento
     {
-        public enum miColor
+        public enum Color
         {
             Natural,
             Blanco,
@@ -24,20 +24,14 @@ namespace Entidades
             
         }
 
-        
-        public miColor color;
+
+        public Color color;
 
         public Sofa()
         { }
-        private Sofa(short alto, short ancho, short profundidad)
-        {
-            this.alto = alto;
-            this.ancho = ancho;
-            this.profundidad = profundidad;
-        }
-
-        public Sofa(short alto, short ancho, short profundidad, miColor color)
-            :this(alto,ancho,profundidad)
+     
+        public Sofa(short alto, short ancho, short profundidad, Color color)
+            :base(alto,ancho,profundidad)
         {
             this.color = color;
         }
@@ -50,7 +44,7 @@ namespace Entidades
             int devuelve=0;
             bool rta = false;
             
-            devuelve = ram.Next(0, 1);
+            devuelve = ram.Next(0, 2);
             switch (devuelve)
             {
                 case 0:
@@ -65,6 +59,16 @@ namespace Entidades
 
             base.InformarFinDePrueba(rta);
 
+        }
+
+        public override string ToString()
+        {
+            base.ToString();
+            StringBuilder sb = new StringBuilder();
+            sb.Append("COLOR: ");
+            sb.AppendLine(this.color.ToString());
+
+            return sb.ToString();
         }
 
     }

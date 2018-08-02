@@ -2,3 +2,7 @@ C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\Entidades\bin
 C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\Entidades\bin\Debug\Entidades.pdb
 C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\Entidades\obj\Debug\Entidades.dll
 C:\Users\alumno\Desktop\20180726 - Final\20180726 - Final - Alumno\Entidades\obj\Debug\Entidades.pdb
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\Entidades\obj\Debug\Entidades.dll
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\Entidades\obj\Debug\Entidades.pdb
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\Entidades\bin\Debug\Entidades.dll
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\Entidades\bin\Debug\Entidades.pdb
