@@ -60,14 +60,17 @@ namespace VistaForm
 
         private void btnAgregarA_Click(object sender, EventArgs e)
         {
-            Material material;
+           Material material;
            Enum.TryParse<Material>(cmbMaterial.SelectedValue.ToString(), out material);
             //Código alumno
+
 
             //Producto unProducto = new Producto();
             ProductoA unProductoA = new ProductoA(txtDescripcionA.Text, (short)nudDiametro.Value, material);
 
-            //this.pedido += unProducto;
+            unProductoA.InformaProductoTerminado += TotalizarProductosTerminados;
+            unProductoA.InformaProductoTerminado += AgregarProductoTerminado;
+            this.pedido.productos.Add(unProducto);
 
             this.txtDescripcionA.Text = "";
             this.nudDiametro.Value = 0;
@@ -89,6 +92,11 @@ namespace VistaForm
         {
             hilo = new Thread(this.pedido.FabricarPedido);
             
+            
+        }
+
+        private void FormPedido_FormClosing(object sender, FormClosingEventArgs e)
+        {
             if (hilo.IsAlive)
             {
                 hilo.Abort();

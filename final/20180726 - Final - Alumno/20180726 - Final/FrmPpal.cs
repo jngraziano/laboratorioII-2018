@@ -44,7 +44,7 @@ namespace _20180726___Final
         /// <param name="e"></param>
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            #region Creo un sofa
+            #region Crear un sofa
             Sofa unSofa = new Sofa();
             unSofa.alto = (short)nudAlto.Value;
             unSofa.ancho = (short)nudAncho.Value;
@@ -71,7 +71,8 @@ namespace _20180726___Final
             }
             #endregion
 
-            //LO GUARDO
+            #region Guardar en TXT y agregar a la lista
+
             try 
 	        {
 
@@ -86,46 +87,62 @@ namespace _20180726___Final
                 this.listaAsientos.Add(unSofa);
                 
 	        }
-            catch (Exception excep)
+            catch (PathTooLongException excep)
             {
 
                 MessageBox.Show(excep.Message);
 
             }
 
-            //LO LEO
+
+            #endregion
+
+            #region Leer desde txt y actualizo richtextbox
             try
             {
 
-                string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + "GuardoTXT";
-                //rtbMensaje.Text=ArchivoTexto.Leer(path);
+                string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + "GuardoTXT.txt";
+                IArchivos<string, string> archivoTXT = new ArchivoTexto();
+
+                rtbMensaje.Text = archivoTXT.Leer(path);
+
             }
-            catch (Exception excep)
+            catch (FileNotFoundException excep)
             {
                 
                  MessageBox.Show(excep.Message);
-         
-            }
-            
 
+            }
+
+            #endregion
 
         }
 
+        /// <summary>
+        ///  Al abrir el programa se deberá leer el archivo y mostrarlo en el RichTextBox
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Al abrir el programa se deberá leer el archivo y mostrarlo en el RichTextBox
+            #region Leer desde txt y muestro Richtextbox
             try
             {
 
-                string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + "GuardoTXT";
-                //rtbMensaje.Text = ArchivoTexto.Leer(path);
+                string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + "GuardoTXT.txt";
+                IArchivos<string, string> archivoTXT = new ArchivoTexto();
+
+                rtbMensaje.Text = archivoTXT.Leer(path);
+
             }
-            catch (Exception excep)
+            catch (FileNotFoundException excep)
             {
 
                 MessageBox.Show(excep.Message);
 
             }
+
+            #endregion
         }
 
         /// <summary>
@@ -135,26 +152,27 @@ namespace _20180726___Final
         /// <param name="e"></param>
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (miHilo.IsAlive)
-            {
-                miHilo.Abort();
-            }
-            string archivo = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" +"GuardoXML";
 
-            foreach (var item in this.listaAsientos)
+            IArchivos<string, Sofa> archivoXML = new ArchivoXML<Sofa>();
+            string ruta = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + "GuardoXML.XML";
+            foreach (Sofa item in this.listaAsientos)
 	        {
-                try 
-	                {
-                        //ArchivoXML.Guardar(archivo, item);
-	                }
-	                catch (Exception)
-	                {
-		
-		                throw;
-	                }
+                MessageBox.Show(archivoXML.Guardar(ruta, item), "Serialización al finalizar", MessageBoxButtons.OK);
 		 
 	        }
-            
+
+            bool asd=Object.Equals(miHilo, null);
+
+            if (!(Object.Equals(miHilo, null)))
+            {
+                if (miHilo.IsAlive)
+                {
+                    miHilo.Abort();
+                }
+
+                
+            }
+           
 
         }
 
@@ -170,11 +188,20 @@ namespace _20180726___Final
 
         public void BancoDePrueba()
         {
-            foreach (var item in this.listaAsientos)
+            //for (int i = 0; i < this.listaAsientos.Count; i++)
+            //{
+            //    this.listaAsientos[i].ProbarAsiento();
+
+            //    MessageBox.Show(listaAsientos[i].ToString(), "DATOS");
+
+            //}
+            foreach (Sofa item in this.listaAsientos)
             {
                 item.ProbarAsiento();
-                MessageBox.Show(item.ToString());
                 
+
+
+
             }
            
         }

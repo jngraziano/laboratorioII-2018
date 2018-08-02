@@ -31,6 +31,7 @@ namespace Entidades
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
+         
             sb.Append("Alto: ");
             sb.AppendLine(this.alto.ToString());
             sb.Append("Ancho: ");
@@ -45,9 +46,22 @@ namespace Entidades
 
         public void  InformarFinDePrueba(bool rta)
         {
-           
-            this.FinPruebaCalidad(this.ToString(), rta);
+            //miDelegado d = new miDelegado(base.InformarFinDePrueba(rta));
+            //FinPruebaCalidad.Invoke(d, new object[] { avance, carril });
+            //this.FinPruebaCalidad += Asiento_FinPruebaCalidad ();
+
+            //this.FinPruebaCalidad.Invoke(this.ToString(), rta);
+            //miDelegado d = new miDelegado(this.ToString(), rta);
+
+            //this.FinPruebaCalidad.Invoke(InformarFinDePrueba());
+
+
+             return this.FinPruebaCalidad(this.ToString(), rta);
+            
+          
         }
+
+      
 
         
     }

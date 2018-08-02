@@ -57,7 +57,7 @@ namespace Entidades
             bool rta = false;
             if ((this.Diametro % 2)==0)
             {
-                if (this.Diametro>=30 || this.Diametro<=50)
+                if (this.Diametro>=30 && this.Diametro<=50)
                 {
                     rta = true;
                 }

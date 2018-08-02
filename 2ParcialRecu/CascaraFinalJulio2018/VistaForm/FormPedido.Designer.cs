@@ -293,6 +293,7 @@
             this.Controls.Add(this.btnConfirmarPedido);
             this.Name = "FormPedido";
             this.Text = "Pedidos";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormPedido_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

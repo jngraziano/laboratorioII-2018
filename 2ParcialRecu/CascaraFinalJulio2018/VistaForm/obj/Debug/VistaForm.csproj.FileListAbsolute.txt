@@ -47,3 +47,6 @@ C:\Users\alumno\Desktop\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\obj\D
 C:\Users\alumno\Desktop\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\obj\Debug\VistaForm.pdb
 C:\Users\alumno\Desktop\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\bin\Debug\Test.dll
 C:\Users\alumno\Desktop\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\bin\Debug\Test.pdb
+C:\Users\jgrazian\Desktop\tano\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\jgrazian\Desktop\tano\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\jgrazian\Desktop\tano\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\obj\Debug\VistaForm.pdb

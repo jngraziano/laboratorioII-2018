@@ -6,3 +6,8 @@ C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\E
 C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\Entidades\obj\Debug\Entidades.pdb
 C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\Entidades\bin\Debug\Entidades.dll
 C:\Users\tano\Desktop\Tano10\falsacultad\labII\final\20180726 - Final - Alumno\Entidades\bin\Debug\Entidades.pdb
+C:\Users\jgrazian\Desktop\tano\labII\final\20180726 - Final - Alumno\Entidades\bin\Debug\Entidades.dll
+C:\Users\jgrazian\Desktop\tano\labII\final\20180726 - Final - Alumno\Entidades\bin\Debug\Entidades.pdb
+C:\Users\jgrazian\Desktop\tano\labII\final\20180726 - Final - Alumno\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\jgrazian\Desktop\tano\labII\final\20180726 - Final - Alumno\Entidades\obj\Debug\Entidades.dll
+C:\Users\jgrazian\Desktop\tano\labII\final\20180726 - Final - Alumno\Entidades\obj\Debug\Entidades.pdb

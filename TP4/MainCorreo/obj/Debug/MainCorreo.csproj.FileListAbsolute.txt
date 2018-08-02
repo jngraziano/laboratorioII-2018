@@ -40,3 +40,6 @@ C:\Users\tano\Desktop\Tano10\falsacultad\labII\TP4\MainCorreo\obj\Debug\MainCorr
 C:\Users\alumno\Desktop\labII\TP4\MainCorreo\bin\Debug\MainCorreo.exe.config
 C:\Users\alumno\Desktop\labII\TP4\MainCorreo\obj\Debug\MainCorreo.exe
 C:\Users\alumno\Desktop\labII\TP4\MainCorreo\obj\Debug\MainCorreo.pdb
+C:\Users\jgrazian\Desktop\tano\labII\TP4\MainCorreo\bin\Debug\MainCorreo.exe.config
+C:\Users\jgrazian\Desktop\tano\labII\TP4\MainCorreo\obj\Debug\MainCorreo.exe
+C:\Users\jgrazian\Desktop\tano\labII\TP4\MainCorreo\obj\Debug\MainCorreo.pdb

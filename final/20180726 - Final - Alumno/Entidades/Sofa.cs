@@ -57,17 +57,21 @@ namespace Entidades
                     break;
             }
 
+            
             base.InformarFinDePrueba(rta);
 
         }
 
         public override string ToString()
         {
-            base.ToString();
+            
             StringBuilder sb = new StringBuilder();
-            sb.Append("COLOR: ");
-            sb.AppendLine(this.color.ToString());
-
+            sb.Append(base.ToString());
+            sb.Append("Color: ");
+            sb.Append(this.color.ToString());
+            sb.AppendLine("");
+            sb.AppendLine("----------------------------------------------");
+            sb.AppendLine("");
             return sb.ToString();
         }
 
