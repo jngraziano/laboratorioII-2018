@@ -1,0 +1,43 @@
+c:\users\horacio\documents\visual studio 2017\Projects\IdeaFinalAgosto\VistaForm\obj\Debug\VistaForm.csprojResolveAssemblyReference.cache
+c:\users\horacio\documents\visual studio 2017\Projects\IdeaFinalAgosto\VistaForm\obj\Debug\VistaForm.Form1.resources
+c:\users\horacio\documents\visual studio 2017\Projects\IdeaFinalAgosto\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
+c:\users\horacio\documents\visual studio 2017\Projects\IdeaFinalAgosto\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.Cache
+c:\users\horacio\documents\visual studio 2017\Projects\IdeaFinalAgosto\VistaForm\bin\Debug\VistaForm.exe.config
+c:\users\horacio\documents\visual studio 2017\Projects\IdeaFinalAgosto\VistaForm\bin\Debug\VistaForm.exe
+c:\users\horacio\documents\visual studio 2017\Projects\IdeaFinalAgosto\VistaForm\bin\Debug\VistaForm.pdb
+c:\users\horacio\documents\visual studio 2017\Projects\IdeaFinalAgosto\VistaForm\bin\Debug\Entidades.dll
+c:\users\horacio\documents\visual studio 2017\Projects\IdeaFinalAgosto\VistaForm\bin\Debug\Entidades.pdb
+c:\users\horacio\documents\visual studio 2017\Projects\IdeaFinalAgosto\VistaForm\obj\Debug\VistaForm.exe
+c:\users\horacio\documents\visual studio 2017\Projects\IdeaFinalAgosto\VistaForm\obj\Debug\VistaForm.pdb
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\Final-20180802\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\Final-20180802\VistaForm\bin\Debug\VistaForm.exe
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\Final-20180802\VistaForm\bin\Debug\VistaForm.pdb
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\Final-20180802\VistaForm\bin\Debug\Entidades.dll
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\Final-20180802\VistaForm\bin\Debug\Entidades.pdb
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\Final-20180802\VistaForm\obj\Debug\VistaForm.csprojResolveAssemblyReference.cache
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\Final-20180802\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\Final-20180802\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.Cache
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\Final-20180802\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\Final-20180802\VistaForm\obj\Debug\VistaForm.pdb
+C:\Users\Horacio\Documents\Visual Studio 2017\Projects\Final-20180802\VistaForm\obj\Debug\VistaForm.FormArchivos.resources
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.pdb
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\VistaForm.exe
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\VistaForm.pdb
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\Entidades.dll
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\mscorlib.dll
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\System.Net.Http.dll
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\Entidades.pdb
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\System.Net.Http.xml
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\es\mscorlib.resources.dll
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\es\System.Net.Http.resources.dll
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\normidna.nlp
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\normnfc.nlp
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\normnfd.nlp
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\normnfkc.nlp
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\normnfkd.nlp
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.csprojResolveAssemblyReference.cache
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.FormArchivos.resources
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
+C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.Cache

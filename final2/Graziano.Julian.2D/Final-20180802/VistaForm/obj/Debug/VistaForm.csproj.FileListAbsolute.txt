@@ -31,3 +31,6 @@ C:\Users\alumno\Desktop\Graziano.Julian.2D\Final-20180802\VistaForm\bin\Debug\Vi
 C:\Users\alumno\Desktop\Graziano.Julian.2D\Final-20180802\VistaForm\bin\Debug\VistaForm.pdb
 C:\Users\alumno\Desktop\Graziano.Julian.2D\Final-20180802\VistaForm\bin\Debug\Entidades.dll
 C:\Users\alumno\Desktop\Graziano.Julian.2D\Final-20180802\VistaForm\bin\Debug\Entidades.pdb
+C:\Users\jgrazian\Desktop\tano\labII\final2\Graziano.Julian.2D\Final-20180802\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\jgrazian\Desktop\tano\labII\final2\Graziano.Julian.2D\Final-20180802\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\jgrazian\Desktop\tano\labII\final2\Graziano.Julian.2D\Final-20180802\VistaForm\obj\Debug\VistaForm.pdb
