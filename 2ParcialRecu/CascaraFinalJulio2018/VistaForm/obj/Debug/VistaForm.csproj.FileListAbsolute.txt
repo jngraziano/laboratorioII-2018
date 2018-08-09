@@ -50,3 +50,6 @@ C:\Users\alumno\Desktop\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\bin\D
 C:\Users\jgrazian\Desktop\tano\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\bin\Debug\VistaForm.exe.config
 C:\Users\jgrazian\Desktop\tano\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\obj\Debug\VistaForm.exe
 C:\Users\jgrazian\Desktop\tano\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\obj\Debug\VistaForm.pdb
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\2ParcialRecu\CascaraFinalJulio2018\VistaForm\obj\Debug\VistaForm.pdb

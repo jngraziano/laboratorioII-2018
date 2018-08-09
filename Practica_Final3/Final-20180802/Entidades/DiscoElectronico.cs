@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 using System.Data.SqlClient;
@@ -14,9 +15,14 @@ namespace Entidades
     //c.El método Leer recibirá el nombre de la tabla a consultar. Deberá leer y retornar todos los archivos de la base de datos.
     //d.Tanto en Leer como en Guardar capturar y relanzar las excepciones.
     //e.El método MostrarArchivos por el momento sólo deberá recorrer la lista de archivos y por cada uno simular un retardo de 5 segundos.
+
     //f.Agregar un constructor en el cual se deberá cargar la lista a partir de los datos guardados en la base.
+
     //g.Sobrecargar el operador + para agregar un archivo a la lista siempre y cuando no supere la capacidad, caso contrario lanzará una excepción con el mensaje "El disco está lleno!".
-    public class DiscoElectronico<V,T>: Almacenador, IAlmacenable<V,T>
+    
+    
+    //public class DiscoElectronico<V, Archivo> : Almacenador, IAlmacenable<V, Archivo>
+    public class DiscoElectronico: Almacenador, IAlmacenable<Archivo,List<Archivo>>
     {
         public List<Archivo> archivosGuardados;
 
@@ -34,61 +40,18 @@ namespace Entidades
             this.Comando.CommandType = System.Data.CommandType.Text;
 
             this.Comando.Connection = this.Conexion;
-        }
 
-        public bool Guardar(T elemento)
-        {
-        
-            string query = "INSERT INTO bla bla";
-
-            return this.EjecutarNonQuery(query);
+            base.capacidad = 5;
             
         }
 
-        public T Leer(string nombreTabla)
-        {
-            string query = "SELECT * FROM" + nombreTabla;
-
-            this.Comando.CommandText = query;
-
-            //// EJECUTO EL COMMAND                 
-              SqlDataReader oDr = this.Comando.ExecuteReader();
-
-              if (oDr.Read())
-              {
-                  string myString = oDr.GetString(0); //The 0 stands for "the 0'th column", so the first column of the result.
-                  // Do somthing with this rows string, for example to put them in to a list
-                  //this.archivosGuardados.Add(myString);
-                  //string col1Value = rdr["ColumnOneName"].ToString(); 
- 
-              }
-
-            //    T nuevot = new T();
-
-            
-            //   // MIENTRAS TENGA REGISTROS...
-            //   if (oDr.Read())
-            //   {
-            //       // ACCEDO POR NOMBRE O POR INDICE
-            //       obj = new Object(int.Parse(oDr["id"].ToString()), oDr["nombre"].ToString());
-            //   }
-
-            //   //CIERRO EL DATAREADER
-            //   oDr.Close();
-               
-
-           
-
-            return oDr;
- 
-        }
-        public bool EjecutarNonQuery(string sql)
+        public bool Guardar(Archivo elemento)
         {
             bool flag = false;
             try
             {
                 // LE PASO LA INSTRUCCION SQL
-                this.Comando.CommandText = sql;
+                this.Comando.CommandText = "INSERT INTO dbo.Archivo (nombre,contenido) VALUES('" + elemento.nombre + "','" + elemento.contenido + "');";;
 
                 // ABRO LA CONEXION A LA BD
                 this.Conexion.Open();
@@ -109,6 +72,82 @@ namespace Entidades
 
             }
             return flag;
+               
+            
+        }
+
+        public List<Archivo> Leer(string nombreTabla)
+        {
+           
+            string query = "SELECT * FROM " + nombreTabla;
+            List<Archivo> aux = new List<Archivo>();
+            Archivo unArchivo = new Archivo();
+
+            try
+            {
+                this.Conexion.Open();
+                this.Comando.CommandText = query;
+
+                //// EJECUTO EL COMMAND                 
+                SqlDataReader oDr = this.Comando.ExecuteReader();
+
+                // MIENTRAS TENGA REGISTROS...
+                while (oDr.Read())
+                {
+                    // ACCEDO POR NOMBRE O POR INDICE
+
+                    //unArchivo = new Archivo(oDr["nombre"].ToString(), oDr["contenido"].ToString());
+
+                    unArchivo.nombre = oDr["nombre"].ToString();
+                    unArchivo.contenido = oDr["contenido"].ToString();
+                    aux.Add(unArchivo);
+                }
+
+                //CIERRO EL DATAREADER
+                oDr.Close();
+                this.Conexion.Close();
+
+            }
+            catch (SqlException)
+            {
+
+                throw;
+            }
+          
+            return aux;
+              
+ 
+        }
+
+        public override void MostrarArchivos()
+        {
+            for (int i = 0; i < this.archivosGuardados.Count; i++)
+            {
+                Thread.Sleep(5000);
+                
+            }
+        }
+
+
+
+        public static List<Archivo> operator +(Archivo unArchivo, DiscoElectronico unDisco)
+        {
+            try
+            {
+                int aux = 0;
+                while (aux <= unDisco.capacidad)
+                {
+                    unDisco.archivosGuardados.Add(unArchivo);
+                    aux++;
+                }
+
+            }
+            catch (Exception)
+            {
+                throw new Exception("El disco esta lleno");
+            }
+            return unDisco.archivosGuardados;
+
         }
 
 

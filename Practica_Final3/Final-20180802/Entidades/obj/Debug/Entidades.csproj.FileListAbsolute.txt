@@ -11,3 +11,9 @@ C:\Users\Horacio\Documents\Visual Studio 2017\Projects\Final-20180802\Entidades\
 C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\Entidades\obj\Debug\Entidades.dll
 C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\Entidades\obj\Debug\Entidades.pdb
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\Entidades\obj\Debug\Entidades.dll
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\Entidades\obj\Debug\Entidades.pdb
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\Entidades\bin\Debug\Entidades.dll
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\Entidades\bin\Debug\Entidades.pdb

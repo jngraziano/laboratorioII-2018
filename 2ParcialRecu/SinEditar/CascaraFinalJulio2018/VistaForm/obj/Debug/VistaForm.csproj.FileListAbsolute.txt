@@ -32,3 +32,4 @@ C:\Users\alumno\Desktop\CascaraFinalJulio2018\VistaForm\obj\Debug\VistaForm.Form
 C:\Users\alumno\Desktop\CascaraFinalJulio2018\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
 C:\Users\alumno\Desktop\CascaraFinalJulio2018\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.Cache
 C:\Users\alumno\Desktop\20180712-Final\CascaraFinalJulio2018\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\2ParcialRecu\SinEditar\CascaraFinalJulio2018\VistaForm\bin\Debug\VistaForm.exe.config

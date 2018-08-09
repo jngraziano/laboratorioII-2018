@@ -13,12 +13,16 @@ namespace Entidades
         public string nombre;
         public string contenido;
 
+        public Archivo(){}
         public Archivo(string nombre, string contenido)
         {
             this.nombre = nombre;
             this.contenido = contenido;
         }
-        public explicit operator string(Archivo unArchivo)
+
+        public string Nombre { get { return this.nombre; } }
+        public string Contenido { get { return this.contenido; } }
+        public static explicit operator string(Archivo unArchivo)
         {
             return unArchivo.contenido;
 

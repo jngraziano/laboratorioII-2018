@@ -41,3 +41,14 @@ C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\ob
 C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.FormArchivos.resources
 C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
 C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.Cache
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.pdb
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\VistaForm.exe
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\VistaForm.pdb
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.csprojResolveAssemblyReference.cache
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.FormArchivos.resources
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.Cache
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\Entidades.dll
+C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\Entidades.pdb

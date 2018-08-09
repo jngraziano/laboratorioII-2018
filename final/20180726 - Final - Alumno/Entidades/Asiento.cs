@@ -56,7 +56,7 @@ namespace Entidades
             //this.FinPruebaCalidad.Invoke(InformarFinDePrueba());
 
 
-             return this.FinPruebaCalidad(this.ToString(), rta);
+             //return this.FinPruebaCalidad(this.ToString(), rta);
             
           
         }

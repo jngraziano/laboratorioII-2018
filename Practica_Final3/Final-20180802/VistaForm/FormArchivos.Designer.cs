@@ -36,6 +36,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnLeerFisico = new System.Windows.Forms.Button();
+            this.btn_leerbase = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnAlmacenarElectronico
@@ -119,11 +120,22 @@
             this.btnLeerFisico.UseVisualStyleBackColor = true;
             this.btnLeerFisico.Click += new System.EventHandler(this.btnLeerFisico_Click);
             // 
+            // btn_leerbase
+            // 
+            this.btn_leerbase.Location = new System.Drawing.Point(299, 239);
+            this.btn_leerbase.Name = "btn_leerbase";
+            this.btn_leerbase.Size = new System.Drawing.Size(75, 23);
+            this.btn_leerbase.TabIndex = 8;
+            this.btn_leerbase.Text = "leo base";
+            this.btn_leerbase.UseVisualStyleBackColor = true;
+            this.btn_leerbase.Click += new System.EventHandler(this.btn_LeoBase);
+            // 
             // FormArchivos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(734, 401);
+            this.Controls.Add(this.btn_leerbase);
             this.Controls.Add(this.btnLeerFisico);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -151,6 +163,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnLeerFisico;
+        private System.Windows.Forms.Button btn_leerbase;
     }
 }
 

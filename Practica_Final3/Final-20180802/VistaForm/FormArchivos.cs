@@ -19,12 +19,16 @@ namespace VistaForm
 
         public FormArchivos()
         {
+            this.electronico = new DiscoElectronico();
+            this.fisico = new ArchiveroFisico(); 
             InitializeComponent();
         }
 
         //a.En el evento Load del formulario instanciar el DiscoElectrónico y el ArchiveroFísico del Form con capacidad para 3 archivos c/uno.
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.electronico.capacidad = 3;
+            this.fisico.capacidad = 3;
 
         }
 
@@ -35,6 +39,20 @@ namespace VistaForm
         private void btnAlmacenarElectronico_Click(object sender, EventArgs e)
         {
             //Código Alumno
+            Archivo unArchivo = new Archivo(this.txtNombreArchivo.Text, this.rtbContenido.Text);
+            int flag = this.electronico.capacidad;
+            if (this.electronico.archivosGuardados.Count == this.electronico.capacidad)
+            {
+                MessageBox.Show(string.Format("Llego al maximo de capacidad de almacenamiento({0} archivos).", this.electronico.capacidad), "Error al agregar", MessageBoxButtons.OK);
+            }
+            while (this.electronico.archivosGuardados.Count < this.electronico.capacidad)
+            {
+                this.electronico.archivosGuardados.Add(unArchivo);
+                this.electronico.Guardar(unArchivo);
+                break;
+            }
+
+            
 
             this.txtNombreArchivo.Text = "";
             this.rtbContenido.Text = "";
@@ -74,6 +92,30 @@ namespace VistaForm
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
 
+        }
+
+        private void btn_LeoBase(object sender, EventArgs e)
+        {
+            try
+            {
+                this.electronico.archivosGuardados = this.electronico.Leer("dbo.Archivo");
+
+                //MessageBox.Show(unArchivo.ToString(), "El ultimo",MessageBoxButtons.OK);
+
+                foreach (var item in this.electronico.archivosGuardados)
+                {
+                    MessageBox.Show(item.ToString(), "BASE:");
+
+                }
+            }
+            catch (NullReferenceException excep)
+            {
+
+                MessageBox.Show(excep.Message);
+            }
+           
+
+            
         }
     }
 }
