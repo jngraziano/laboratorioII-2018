@@ -31,3 +31,6 @@ C:\Users\jgraziano\Desktop\tano10\labII\TP\Graziano.Julian-TP1\MiCalculadora\obj
 C:\Users\jgraziano\Desktop\tano10\labII\TP\Graziano.Julian-TP1\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources
 C:\Users\jgraziano\Desktop\tano10\labII\TP\Graziano.Julian-TP1\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
 C:\Users\jgraziano\Desktop\tano10\labII\TP\Graziano.Julian-TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.Cache
+C:\Users\jgrazian\Desktop\tano\labII\TP\TP01\Graziano.Julian-TP1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\jgrazian\Desktop\tano\labII\TP\TP01\Graziano.Julian-TP1\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\jgrazian\Desktop\tano\labII\TP\TP01\Graziano.Julian-TP1\MiCalculadora\obj\Debug\MiCalculadora.pdb

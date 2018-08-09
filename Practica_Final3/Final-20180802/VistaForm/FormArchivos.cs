@@ -51,16 +51,28 @@ namespace VistaForm
             {
                 Archivo unArchivo = new Archivo(this.txtNombreArchivo.Text, this.rtbContenido.Text);
 
-                if (this.electronico.archivosGuardados.Count == this.electronico.capacidad)
-                {
-                    MessageBox.Show(string.Format("Llego al maximo de capacidad de almacenamiento({0} archivos).", this.electronico.capacidad), "Error al agregar", MessageBoxButtons.OK);
-                }
-                while (this.electronico.archivosGuardados.Count < this.electronico.capacidad)
-                {
-                    this.electronico.archivosGuardados.Add(unArchivo);
-                    this.electronico.Guardar(unArchivo);
-                    break;
-                }
+               this.electronico.archivosGuardados = this.electronico + unArchivo;
+              
+               if (this.electronico.Guardar(unArchivo))
+               {
+                   MessageBox.Show("Archivo electrónico guardado", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+               }
+               else
+               {
+                   MessageBox.Show("error", "ERROR", MessageBoxButtons.OK);
+               }
+
+             
+
+
+                //if (this.electronico.archivosGuardados.Count == this.electronico.capacidad)
+                //{
+                //    MessageBox.Show(string.Format("Llego al maximo de capacidad de almacenamiento({0} archivos).", this.electronico.capacidad), "Error al agregar", MessageBoxButtons.OK);
+                //}
+                //while (this.electronico.archivosGuardados.Count < this.electronico.capacidad)
+                //{
+                //    break;
+                //}
 
             }
             catch (SqlException excep)
@@ -87,6 +99,7 @@ namespace VistaForm
                 Archivo unArchivo = new Archivo(this.txtNombreArchivo.Text, this.rtbContenido.Text);
 
                 this.fisico.Guardar(unArchivo);
+                MessageBox.Show("El archivo fue guardado con exito", "Almacenar Fisico", MessageBoxButtons.OK,MessageBoxIcon.Information);
 
             }
             catch (FieldAccessException excep)
@@ -113,7 +126,7 @@ namespace VistaForm
 
         public void MostrarArchivo(string info)
         {
-            MessageBox.Show(info);
+            MessageBox.Show(info,"Leer Electronico",MessageBoxButtons.OK);
         }
 
         //En el manejador del botón LeerFisico se deberá, a partir del nombre ingresado en 
@@ -126,11 +139,17 @@ namespace VistaForm
         //Antes de cerrar, en el evento FormClosing, abortar el hilo del formulario en caso de que siga vivo.
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (miHilo.IsAlive)
+            if (!(object.ReferenceEquals(miHilo,null)))
             {
-                miHilo.Abort();
+                if (miHilo.IsAlive)
+                {
+
+                    miHilo.Abort();
                 
+                }
+                              
             }
+          
 
         }
 

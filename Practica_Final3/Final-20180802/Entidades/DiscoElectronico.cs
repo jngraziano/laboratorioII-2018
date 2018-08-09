@@ -33,7 +33,10 @@ namespace Entidades
         {
             this.archivosGuardados = new List<Archivo>();
 
+           // string server = ".\\SQLEXPRESS";
             this.Conexion = new SqlConnection(Properties.Settings.Default.CadenaConexion);
+
+            //Data Source=.\SQLEXPRESS;Initial Catalog=final-20180802;Integrated Security=SSPI;uid=MEDEL\cadmin-jgrazian;pwd=Granatepasion18;
 
             this.Comando = new SqlCommand();
 
@@ -134,21 +137,27 @@ namespace Entidades
 
 
 
-        public static List<Archivo> operator +(Archivo unArchivo, DiscoElectronico unDisco)
+        public static List<Archivo> operator +(DiscoElectronico unDisco, Archivo unArchivo)
         {
             try
             {
-                int aux = 0;
-                while (aux <= unDisco.capacidad)
+                //arreglar tema de excepciones
+                int aux = unDisco.archivosGuardados.Count;
+                
+                if (aux < unDisco.capacidad)
                 {
                     unDisco.archivosGuardados.Add(unArchivo);
-                    aux++;
+
+                }
+                else
+                {
+                    throw new Exception("El disco esta lleno");
                 }
 
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                throw new Exception("El disco esta lleno");
+                throw e;
             }
             return unDisco.archivosGuardados;
 

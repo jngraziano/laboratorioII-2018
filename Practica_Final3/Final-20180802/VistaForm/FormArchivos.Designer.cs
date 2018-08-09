@@ -122,12 +122,13 @@
             // 
             // btn_leerbase
             // 
+            this.btn_leerbase.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btn_leerbase.Location = new System.Drawing.Point(299, 239);
             this.btn_leerbase.Name = "btn_leerbase";
             this.btn_leerbase.Size = new System.Drawing.Size(75, 23);
             this.btn_leerbase.TabIndex = 8;
-            this.btn_leerbase.Text = "leo base";
-            this.btn_leerbase.UseVisualStyleBackColor = true;
+            this.btn_leerbase.Text = "prueba leer base";
+            this.btn_leerbase.UseVisualStyleBackColor = false;
             this.btn_leerbase.Click += new System.EventHandler(this.btn_LeoBase);
             // 
             // FormArchivos

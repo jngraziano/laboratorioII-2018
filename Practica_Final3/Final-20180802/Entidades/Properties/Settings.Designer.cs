@@ -25,7 +25,8 @@ namespace Entidades.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;Initial Catalog=final-20180802;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\SQLEXPRESS;Initial Catalog=final-20180802;Integrated Security=SSPI;" +
+            "uid=MEDEL\\cadmin-jgrazian;pwd=Granatepasion18;")]
         public string CadenaConexion {
             get {
                 return ((string)(this["CadenaConexion"]));
