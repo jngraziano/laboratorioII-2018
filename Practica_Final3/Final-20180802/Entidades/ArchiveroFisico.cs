@@ -15,7 +15,7 @@ namespace Entidades
     //Tanto en Leer como en Guardar capturar y relanzar las excepciones.
     public class ArchiveroFisico:Almacenador,IAlmacenable<Archivo,string>
     {
-        private string pathArchivos;
+        public string pathArchivos;
 
         public ArchiveroFisico(){}
         public ArchiveroFisico(string path)
@@ -34,9 +34,11 @@ namespace Entidades
 
                 return true;
             }
-            catch (Exception)
+            catch (FileNotFoundException excep)
             {
                 return false;
+                throw excep;
+                
             }
 
         }
@@ -53,10 +55,11 @@ namespace Entidades
 
                 return datos;
             }
-            catch (Exception)
+            catch (FileNotFoundException excep)
             {
                 datos = "";
                 return datos;
+                throw excep;
             }
         }
 

@@ -10,17 +10,23 @@ using System.Windows.Forms;
 using Entidades;
 using System.Threading;
 
+using System.Data.SqlClient;
+
+
 namespace VistaForm
 {
     public partial class FormArchivos : Form
     {
         DiscoElectronico electronico;
         ArchiveroFisico fisico;
+        Thread miHilo;
 
         public FormArchivos()
         {
+            string ruta = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + "GuardoTXT.txt";
             this.electronico = new DiscoElectronico();
-            this.fisico = new ArchiveroFisico(); 
+            this.fisico = new ArchiveroFisico(ruta); 
+            
             InitializeComponent();
         }
 
@@ -39,21 +45,33 @@ namespace VistaForm
         private void btnAlmacenarElectronico_Click(object sender, EventArgs e)
         {
             //Código Alumno
-            Archivo unArchivo = new Archivo(this.txtNombreArchivo.Text, this.rtbContenido.Text);
-            int flag = this.electronico.capacidad;
-            if (this.electronico.archivosGuardados.Count == this.electronico.capacidad)
-            {
-                MessageBox.Show(string.Format("Llego al maximo de capacidad de almacenamiento({0} archivos).", this.electronico.capacidad), "Error al agregar", MessageBoxButtons.OK);
-            }
-            while (this.electronico.archivosGuardados.Count < this.electronico.capacidad)
-            {
-                this.electronico.archivosGuardados.Add(unArchivo);
-                this.electronico.Guardar(unArchivo);
-                break;
-            }
 
-            
+            #region Creo un archivo, chequeo capacidad, agrego en Lista y BD
+            try
+            {
+                Archivo unArchivo = new Archivo(this.txtNombreArchivo.Text, this.rtbContenido.Text);
 
+                if (this.electronico.archivosGuardados.Count == this.electronico.capacidad)
+                {
+                    MessageBox.Show(string.Format("Llego al maximo de capacidad de almacenamiento({0} archivos).", this.electronico.capacidad), "Error al agregar", MessageBoxButtons.OK);
+                }
+                while (this.electronico.archivosGuardados.Count < this.electronico.capacidad)
+                {
+                    this.electronico.archivosGuardados.Add(unArchivo);
+                    this.electronico.Guardar(unArchivo);
+                    break;
+                }
+
+            }
+            catch (SqlException excep)
+            {
+
+                MessageBox.Show(excep.Message, "ERROR", MessageBoxButtons.OK);
+            }
+           
+            #endregion
+
+            //Limpio:
             this.txtNombreArchivo.Text = "";
             this.rtbContenido.Text = "";
         }
@@ -64,6 +82,18 @@ namespace VistaForm
         private void btnAlmacenarFisico_Click(object sender, EventArgs e)
         {
             //Código Alumno
+            try
+            {
+                Archivo unArchivo = new Archivo(this.txtNombreArchivo.Text, this.rtbContenido.Text);
+
+                this.fisico.Guardar(unArchivo);
+
+            }
+            catch (FieldAccessException excep)
+            {
+                MessageBox.Show(excep.Message, "ERROR", MessageBoxButtons.OK);
+            }
+           
 
             this.txtNombreArchivo.Text = "";
             this.rtbContenido.Text = "";
@@ -73,6 +103,11 @@ namespace VistaForm
         //Ejecutar en un hilo el método MostrarArchivos de la clase DiscoElectronico.
         private void btnLeerElectronico_Click(object sender, EventArgs e)
         {
+
+            this.electronico.MostrarInfo += this.MostrarArchivo;
+
+            miHilo = new Thread(this.electronico.MostrarArchivos);
+            miHilo.Start();
 
         }
 
@@ -85,12 +120,17 @@ namespace VistaForm
         //txtNombreArchivo, recuperar el contenido del archivo y mostrarlo en el rtbContenido.
         private void btnLeerFisico_Click(object sender, EventArgs e)
         {
-
+            rtbContenido.Text=this.fisico.Leer(this.fisico.pathArchivos);
         }
 
         //Antes de cerrar, en el evento FormClosing, abortar el hilo del formulario en caso de que siga vivo.
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
+            if (miHilo.IsAlive)
+            {
+                miHilo.Abort();
+                
+            }
 
         }
 

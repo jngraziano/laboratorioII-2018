@@ -108,10 +108,10 @@ namespace Entidades
                 this.Conexion.Close();
 
             }
-            catch (SqlException)
+            catch (SqlException excep)
             {
 
-                throw;
+                throw excep;
             }
           
             return aux;
@@ -119,13 +119,17 @@ namespace Entidades
  
         }
 
+        //i.	Modificar el método MostrarArchivos de la clase DiscoElectrónico para que ejecute el método DispararEvento por cada archivo de la lista.
         public override void MostrarArchivos()
         {
-            for (int i = 0; i < this.archivosGuardados.Count; i++)
+            
+            foreach (var item in this.archivosGuardados)
             {
-                Thread.Sleep(5000);
+                //Thread.Sleep(5000);
+                base.DispararEvento(item);
                 
             }
+
         }
 
 

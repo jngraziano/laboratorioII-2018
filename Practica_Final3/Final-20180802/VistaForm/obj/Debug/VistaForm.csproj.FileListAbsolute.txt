@@ -26,17 +26,7 @@ C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\ob
 C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\VistaForm.exe
 C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\VistaForm.pdb
 C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\Entidades.dll
-C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\mscorlib.dll
-C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\System.Net.Http.dll
 C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\Entidades.pdb
-C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\System.Net.Http.xml
-C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\es\mscorlib.resources.dll
-C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\es\System.Net.Http.resources.dll
-C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\normidna.nlp
-C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\normnfc.nlp
-C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\normnfd.nlp
-C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\normnfkc.nlp
-C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\normnfkd.nlp
 C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.csprojResolveAssemblyReference.cache
 C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.FormArchivos.resources
 C:\Users\jgrazian\Desktop\tano\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
