@@ -9,12 +9,19 @@ namespace Entidades
    //Crear un constructor que reciba y asigne el/los atributos de la misma.
    //La clase debe ser abstracta.
    //Crear un método abstracto llamado MostrarArchivos que retorne void.
-   //f.	Agregar en la clase Almacenador un evento llamado MostrarInfo el cual recibirá un string y retornará void.
-   //g.	Agregar también en la clase Almacenador un método llamado DispararEvento que recibirá un archivo por parámetro e invocará al evento MostrarInfo con los datos del archivo.
+
+
     public abstract class Almacenador
     {
+        /// <summary>
+        /// delegado que recibirá un string y retornará void.
+        /// </summary>
+        /// <param name="unString"></param>
         public delegate void miDelegado(string unString); 
 
+        /// <summary>
+        /// evento con las caracteristicas de miDelegado para ser llamado
+        /// </summary>
         public event miDelegado MostrarInfo;
 
         public int capacidad;
@@ -25,11 +32,29 @@ namespace Entidades
             this.capacidad = capa;
         }
 
+
+
+
+
         public abstract void MostrarArchivos();
 
+
+
+
+        /// <summary>
+        /// Si el evento no es nulo, 
+        /// invocará al evento MostrarInfo con los datos del archivo.
+        /// </summary>
+        /// <param name="unArchivo"></param>
         public void DispararEvento(Archivo unArchivo)
         {
-            MostrarInfo.Invoke(unArchivo.ToString());
+            if (MostrarInfo != null)
+            {
+                MostrarInfo(unArchivo.ToString());
+            }
+                
+
+           
         }
     }
 }

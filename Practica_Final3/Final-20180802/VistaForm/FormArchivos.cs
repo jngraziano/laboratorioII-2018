@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
+using System.IO;
 using Entidades;
 using System.Threading;
 
@@ -17,6 +19,7 @@ namespace VistaForm
 {
     public partial class FormArchivos : Form
     {
+        #region Atributos constructor y FormLoad
         DiscoElectronico electronico;
         ArchiveroFisico fisico;
         Thread miHilo;
@@ -38,6 +41,8 @@ namespace VistaForm
 
         }
 
+        #endregion
+
         //instanciar un archivo a partir de los datos obtenidos de los controles del formulario.
         //Agregar el archivo a la lista del DiscoElectrónico siempre y cuando haya capacidad.
         //Si se pudo agregar a la lista, guardarlo también en la base de datos.
@@ -52,18 +57,19 @@ namespace VistaForm
                 Archivo unArchivo = new Archivo(this.txtNombreArchivo.Text, this.rtbContenido.Text);
 
                this.electronico.archivosGuardados = this.electronico + unArchivo;
-              
-               if (this.electronico.Guardar(unArchivo))
-               {
-                   MessageBox.Show("Archivo electrónico guardado", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
-               }
-               else
-               {
-                   MessageBox.Show("error", "ERROR", MessageBoxButtons.OK);
-               }
 
-             
+               try
+               {
+                   if (this.electronico.Guardar(unArchivo))
+                   {
+                       MessageBox.Show("Archivo electrónico guardado", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                   }
 
+               }
+               catch (SqlException excep)
+               {
+                   MessageBox.Show("Error de SQL: \n\n"+ excep.Message, "ERROR", MessageBoxButtons.OK);
+               }
 
                 //if (this.electronico.archivosGuardados.Count == this.electronico.capacidad)
                 //{
@@ -75,7 +81,7 @@ namespace VistaForm
                 //}
 
             }
-            catch (SqlException excep)
+            catch (Exception excep)
             {
 
                 MessageBox.Show(excep.Message, "ERROR", MessageBoxButtons.OK);
@@ -126,14 +132,23 @@ namespace VistaForm
 
         public void MostrarArchivo(string info)
         {
-            MessageBox.Show(info,"Leer Electronico",MessageBoxButtons.OK);
+            MessageBox.Show(info,"Leer Electronico");
+            
         }
 
         //En el manejador del botón LeerFisico se deberá, a partir del nombre ingresado en 
         //txtNombreArchivo, recuperar el contenido del archivo y mostrarlo en el rtbContenido.
         private void btnLeerFisico_Click(object sender, EventArgs e)
         {
-            rtbContenido.Text=this.fisico.Leer(this.fisico.pathArchivos);
+            //try
+            //{
+                rtbContenido.Text = this.fisico.Leer(this.fisico.pathArchivos);
+            //}
+            //catch (FileNotFoundException excep)
+            //{
+            //    MessageBox.Show(excep.Message,"ERROR",MessageBoxButtons.OK);
+            //}
+            
         }
 
         //Antes de cerrar, en el evento FormClosing, abortar el hilo del formulario en caso de que siga vivo.

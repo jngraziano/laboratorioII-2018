@@ -26,6 +26,8 @@ namespace Entidades
     {
         public List<Archivo> archivosGuardados;
 
+
+        #region Conexion Comando y constructor
         public SqlConnection Conexion;
         public SqlCommand Comando;
 
@@ -34,6 +36,7 @@ namespace Entidades
             this.archivosGuardados = new List<Archivo>();
 
            // string server = ".\\SQLEXPRESS";
+         
             this.Conexion = new SqlConnection(Properties.Settings.Default.CadenaConexion);
 
             //Data Source=.\SQLEXPRESS;Initial Catalog=final-20180802;Integrated Security=SSPI;uid=MEDEL\cadmin-jgrazian;pwd=Granatepasion18;
@@ -47,7 +50,9 @@ namespace Entidades
             base.capacidad = 5;
             
         }
+        #endregion
 
+        #region Guardar en BD
         public bool Guardar(Archivo elemento)
         {
             bool flag = false;
@@ -64,9 +69,11 @@ namespace Entidades
 
                 flag = true;
             }
-            catch (SqlException)
+            catch (SqlException e)
             {
                 flag = false;
+                throw e;
+               
             }
             finally
             {
@@ -78,7 +85,9 @@ namespace Entidades
                
             
         }
+        #endregion
 
+        #region Leer de BD
         public List<Archivo> Leer(string nombreTabla)
         {
            
@@ -121,27 +130,35 @@ namespace Entidades
               
  
         }
+        #endregion
 
-        //i.	Modificar el método MostrarArchivos de la clase DiscoElectrónico para que ejecute el método DispararEvento por cada archivo de la lista.
+        /// <summary>
+        /// Ejecuta el metodo DispararEvento por cada archivo de la lista.
+        /// </summary>
         public override void MostrarArchivos()
         {
             
-            foreach (var item in this.archivosGuardados)
+            foreach (Archivo item in this.archivosGuardados)
             {
-                //Thread.Sleep(5000);
+                Thread.Sleep(5000);
                 base.DispararEvento(item);
-                
+     
             }
 
         }
 
 
-
+        /// <summary>
+        /// Sobrecarga + para que lanze una excepcion si se sobrepasa la capacidad 
+        /// </summary>
+        /// <param name="unDisco"></param>
+        /// <param name="unArchivo"></param>
+        /// <returns></returns>
         public static List<Archivo> operator +(DiscoElectronico unDisco, Archivo unArchivo)
         {
             try
             {
-                //arreglar tema de excepciones
+               
                 int aux = unDisco.archivosGuardados.Count;
                 
                 if (aux < unDisco.capacidad)
@@ -155,9 +172,9 @@ namespace Entidades
                 }
 
             }
-            catch (Exception e)
+            catch (Exception excep)
             {
-                throw e;
+                throw excep;
             }
             return unDisco.archivosGuardados;
 

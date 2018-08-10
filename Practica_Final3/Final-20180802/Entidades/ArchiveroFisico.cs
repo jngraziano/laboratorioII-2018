@@ -23,6 +23,12 @@ namespace Entidades
             this.pathArchivos = path;
         }
 
+
+        /// <summary>
+        /// Guarda en un txt
+        /// </summary>
+        /// <param name="elemento"></param>
+        /// <returns></returns>
         public bool Guardar(Archivo elemento)
         {
             try
@@ -43,6 +49,11 @@ namespace Entidades
 
         }
 
+        /// <summary>
+        /// Lee desde el archivo 
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
         public string Leer(string path)
         {
             string datos;
@@ -55,11 +66,11 @@ namespace Entidades
 
                 return datos;
             }
-            catch (FileNotFoundException excep)
+            catch (FileNotFoundException)
             {
-                datos = "";
+                datos = "Error archivo no encontrado.";
                 return datos;
-                throw excep;
+               // throw excep;
             }
         }
 
@@ -68,6 +79,102 @@ namespace Entidades
         {
             throw new NotImplementedException();
         }
+
+        #region GuardarXML
+        //public bool Guardar(string archivo, V datos)
+        //{
+        //    try
+        //    {
+        //        XmlSerializer serializer = new XmlSerializer(typeof(V));
+        //        //TextWriter writer = new StreamWriter(archivo);
+        //        XmlTextWriter writer = new XmlTextWriter(archivo, Encoding.UTF8);
+        //        serializer.Serialize(writer, datos);
+        //        writer.Close();
+
+        //        return true;
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        Console.WriteLine(e.Message);
+        //        return false;
+        //    }
+        //}
+
+
+        #endregion
+
+        #region LeerXML
+        //public bool Leer(string archivo, out V datos)
+        //{
+        //    try
+        //    {
+        //        XmlSerializer serializer = new XmlSerializer(typeof(V));
+        //        //TextReader writer = new StreamReader(archivo);
+        //        XmlTextReader writer = new XmlTextReader(archivo);
+        //        datos = (V)serializer.Deserialize(writer);
+        //        writer.Close();
+
+        //        return true;
+        //    }
+        //    catch (Exception)
+        //    {
+        //        datos = default(V);
+        //        return false;
+        //    }
+        //}
+        #endregion
+
+        #region GuardarBinario
+        //public bool Guardar(string archivo, T datos)
+        //{ //datos es el tipo de dato que recibe, puede ser generica (T)
+        //    Stream stream = null;
+        //    try
+        //    {
+        //        BinaryFormatter formatter = new BinaryFormatter();
+        //        stream = new FileStream(archivo, FileMode.Create, FileAccess.Write, FileShare.None);
+        //        formatter.Serialize(stream, datos);
+
+        //        return true;
+        //    }
+        //    catch (Exception)
+        //    {
+        //        return false;
+        //    }
+        //    finally
+        //    {
+        //        if (!ReferenceEquals(stream, null))
+        //            stream.Close();
+        //    }
+        //}
+
+        #endregion
+
+        #region LeerBinario
+        //public bool Leer(string archivo, out T datos)
+        //{
+        //    Stream stream = null;
+        //    try
+        //    {
+        //        BinaryFormatter formatter = new BinaryFormatter();
+        //        stream = new FileStream(archivo, FileMode.Open, FileAccess.Read, FileShare.Read);
+        //        datos = (T)formatter.Deserialize(stream);
+        //        stream.Close();
+
+        //        return true;
+        //    }
+        //    catch (Exception)
+        //    {
+        //        datos = default(T);
+        //        return false;
+        //    }
+        //    finally
+        //    {
+        //        if (!ReferenceEquals(stream, null))
+        //            stream.Close();
+        //    }
+        //}
+
+        #endregion
 
     }
 }

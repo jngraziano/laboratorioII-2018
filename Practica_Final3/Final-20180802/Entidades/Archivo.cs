@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    //Sobreescribir el método ToString para mostrar los valores de sus atributos.Utilizar String.Format.
-    //Agregar el operador explicit para retornar el contenido del archivo.
+   
+    
     public class Archivo
     {
+
+        #region Variables constructores y propiedades de Nombre y Contenido
         public string nombre;
         public string contenido;
 
@@ -22,13 +24,25 @@ namespace Entidades
 
         public string Nombre { get { return this.nombre; } }
         public string Contenido { get { return this.contenido; } }
+        #endregion
+
+        
+
+        /// <summary>
+        /// operador explicit: retornar el contenido del archivo.
+        /// </summary>
+        /// <param name="unArchivo"></param>
+        /// <returns></returns>
         public static explicit operator string(Archivo unArchivo)
         {
             return unArchivo.contenido;
 
         }
 
-
+        /// <summary>
+        /// sobreescribir ToString para mostrar los valores
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return string.Format("Nombre: {0}\nContenido: {1}", this.nombre, this.contenido);
