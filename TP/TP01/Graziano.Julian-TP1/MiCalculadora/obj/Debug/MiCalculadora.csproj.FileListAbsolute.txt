@@ -34,3 +34,6 @@ C:\Users\jgraziano\Desktop\tano10\labII\TP\Graziano.Julian-TP1\MiCalculadora\obj
 C:\Users\jgrazian\Desktop\tano\labII\TP\TP01\Graziano.Julian-TP1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
 C:\Users\jgrazian\Desktop\tano\labII\TP\TP01\Graziano.Julian-TP1\MiCalculadora\obj\Debug\MiCalculadora.exe
 C:\Users\jgrazian\Desktop\tano\labII\TP\TP01\Graziano.Julian-TP1\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\alumno\Desktop\labII\TP\TP01\Graziano.Julian-TP1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\alumno\Desktop\labII\TP\TP01\Graziano.Julian-TP1\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\alumno\Desktop\labII\TP\TP01\Graziano.Julian-TP1\MiCalculadora\obj\Debug\MiCalculadora.pdb

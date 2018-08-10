@@ -6,3 +6,6 @@ C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\obj\Debug\VistaCon
 C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\obj\Debug\VistaConsola.csprojResolveAssemblyReference.cache
 C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\bin\Debug\Entidades.dll
 C:\Users\alumno\Desktop\labII\Graziano.Julian.2d\VistaConsola\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\labII\Parciales\1Parcial\Graziano.Julian.2d\VistaConsola\bin\Debug\VistaConsola.exe.config
+C:\Users\alumno\Desktop\labII\Parciales\1Parcial\Graziano.Julian.2d\VistaConsola\obj\Debug\VistaConsola.exe
+C:\Users\alumno\Desktop\labII\Parciales\1Parcial\Graziano.Julian.2d\VistaConsola\obj\Debug\VistaConsola.pdb

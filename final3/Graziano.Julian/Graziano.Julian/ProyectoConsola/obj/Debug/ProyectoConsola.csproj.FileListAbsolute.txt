@@ -1,0 +1,8 @@
+C:\Users\alumno\Desktop\Graziano.Julian\Graziano.Julian\ProyectoConsola\bin\Debug\ProyectoConsola.exe.config
+C:\Users\alumno\Desktop\Graziano.Julian\Graziano.Julian\ProyectoConsola\obj\Debug\ProyectoConsola.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Graziano.Julian\Graziano.Julian\ProyectoConsola\bin\Debug\ProyectoConsola.exe
+C:\Users\alumno\Desktop\Graziano.Julian\Graziano.Julian\ProyectoConsola\bin\Debug\ProyectoConsola.pdb
+C:\Users\alumno\Desktop\Graziano.Julian\Graziano.Julian\ProyectoConsola\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Graziano.Julian\Graziano.Julian\ProyectoConsola\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\Graziano.Julian\Graziano.Julian\ProyectoConsola\obj\Debug\ProyectoConsola.exe
+C:\Users\alumno\Desktop\Graziano.Julian\Graziano.Julian\ProyectoConsola\obj\Debug\ProyectoConsola.pdb

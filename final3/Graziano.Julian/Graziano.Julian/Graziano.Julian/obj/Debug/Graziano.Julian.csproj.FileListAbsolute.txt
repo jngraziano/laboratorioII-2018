@@ -1,0 +1,4 @@
+C:\Users\alumno\Desktop\Graziano.Julian\Graziano.Julian\Graziano.Julian\bin\Debug\Graziano.Julian.exe.config
+C:\Users\alumno\Desktop\Graziano.Julian\Graziano.Julian\Graziano.Julian\obj\Debug\Graziano.Julian.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Graziano.Julian\Graziano.Julian\Graziano.Julian\obj\Debug\Graziano.Julian.Properties.Resources.resources
+C:\Users\alumno\Desktop\Graziano.Julian\Graziano.Julian\Graziano.Julian\obj\Debug\Graziano.Julian.csproj.GenerateResource.Cache

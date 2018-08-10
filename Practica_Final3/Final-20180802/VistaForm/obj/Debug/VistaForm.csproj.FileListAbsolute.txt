@@ -42,3 +42,6 @@ C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\Vi
 C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.Cache
 C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\Entidades.dll
 C:\Users\tano\Desktop\Tano10\falsacultad\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\labII\Practica_Final3\Final-20180802\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\alumno\Desktop\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\alumno\Desktop\labII\Practica_Final3\Final-20180802\VistaForm\obj\Debug\VistaForm.pdb
